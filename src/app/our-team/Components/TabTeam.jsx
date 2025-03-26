@@ -152,7 +152,7 @@ const TabTeam = () => {
       name: "Kushal S. Hegde",
       des: "Chairman",
       category: "Operations Team",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/kushal.png",
       linkuri: "/",
       aboutmem:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet.",
@@ -162,7 +162,7 @@ const TabTeam = () => {
       name: "Rajesh Hegde",
       des: "MD - KSH International",
       category: "News",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/rajesh.png",
       linkuri: "/",
       aboutmem:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -172,7 +172,7 @@ const TabTeam = () => {
       name: "Rohit Hegde",
       des: "Managing Director",
       category: "Operations Team",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/rohit.png",
       linkuri: "/",
       aboutmem:
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -182,7 +182,7 @@ const TabTeam = () => {
       name: "Sundaresan. V",
       des: "Managing Director",
       category: "Partners | Advisors | EIRs",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/sun.png",
       linkuri: "/",
       aboutmem:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -192,7 +192,7 @@ const TabTeam = () => {
       name: "Abhijit Pawar",
       des: "Chairman",
       category: "Partners | Advisors | EIRs",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/abhi.png",
       linkuri: "/",
       aboutmem:
         "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -202,17 +202,27 @@ const TabTeam = () => {
       name: "Rushid Domadia",
       des: "MD - KSH International",
       category: "Operations Team",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/rush.png",
       linkuri: "/",
       aboutmem:
         "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
     },
     {
       id: 7,
+      name: "Karam Domadia",
+      des: "MD - KSH International",
+      category: "Partners | Advisors | EIRs",
+      image: "/team/member/karan.png",
+      linkuri: "/",
+      aboutmem:
+        "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+    },
+    {
+      id: 8,
       name: "Akhilesh Ayyapan",
       des: "Managing Director",
       category: "Partners | Advisors | EIRs",
-      image: "/blog/blogin/blogin1.png",
+      image: "/team/member/akh.png",
       linkuri: "/",
       aboutmem:
         "Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.",

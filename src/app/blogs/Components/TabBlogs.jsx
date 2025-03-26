@@ -88,9 +88,8 @@ const TabBlogs = () => {
       {
         id: 1,
         category: "News",
-        image: "/blog/blog1.jpg",
-        title: `The Evolution of Grade A Industrial and Logistics Parks: Trends
-              and Insights`,
+        image: "/blog/blog2.png",
+        title: `How Grade A Industrial Parks Aid the 7 Principles of Lean Manufacturing`,
       },
       {
         id: 2,

@@ -21,7 +21,7 @@ const BlogCard = ({ blog }) => {
           </h3>
         </div>
         <Link
-          href="blogs/the-evolution-of-grade-a-industrial-and-logistics-parks-trends-and-insights"
+          href="blogs/how-grade-a-industrial-parks-aid-the-7-principles-of-lean-manufacturing"
           className="flex items-center gap-2"
         >
           <div className="w-[30px] h-[30px] bg-[#EEF0F3] rounded-full flex items-center justify-center">

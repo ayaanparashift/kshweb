@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CSbgbl = () => {
@@ -6,9 +7,12 @@ const CSbgbl = () => {
       <h1 className="fpt-600 text-2xl text-center  md:text-3xl lg:text-[44px] lg:leading-[50px] text-white">
         Let's co-create the right solution for your business
       </h1>
-      <a className="border-[D7D7D7] border text-sm md:text-base fsans-600 text-white flex items-center px-[30px] py-[22px] gap-3 rounded-[10px]">
+      <Link
+        href="/contact"
+        className="border-[D7D7D7] border text-sm md:text-base fsans-600 text-white flex items-center px-[30px] py-[22px] gap-3 rounded-[10px]"
+      >
         Enquire Now <img src="/Cap/cap_enquire.svg" alt="" />
-      </a>
+      </Link>
     </div>
   );
 };

@@ -259,7 +259,7 @@ const Landing = ({ isActive }) => {
       <div className="fix12 flex items-center lg:justify-center justify-end xl-1920:max-h-fit h-screen pb-[75px] pt-[0px] md:py-[92px] xl:gap-[100px] md:gap-[50px] gap-[20px] md:flex-row flex-col-reverse">
         {/* Left Side Content */}
         <motion.div
-          className="flex flex-col flex-1 max-w-full gap-5 xl:gap-10 xl:flex-[1] lg:h-[450px] justify-center"
+          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] lg:h-[500px] justify-end h-full"
           variants={fadeIn2}
           initial="hidden"
           animate={isActive ? "visible" : "hidden"}
@@ -272,7 +272,8 @@ const Landing = ({ isActive }) => {
             {/* Delivering <br className="xl-1920:flex hidden" />
             Grade A Industrial <br className="xl-1920:flex hidden" />& Logistics
             Parks */}
-            BUILD FOR SUCCESS. SUSTAINABLY.
+            Delivering
+            <br /> Grade A Industrial & Logistics Parks
           </motion.h1>
           <motion.p
             className="fsans-500 text-[14px] lg:text-[18px] xl:text-[20px] leading-[26px]"
@@ -285,14 +286,9 @@ const Landing = ({ isActive }) => {
             }}
             variants={fadeIn2}
           >
-            At KSH INFRA, we develop Grade A industrial and logistics parks
-            ecosystems, built on the foundations of trust, integrity, and
-            environmental sustainability. This is the reason we remain the
-            preferred choice for leading organizations at a growing number of
-            industrial hubs nationwide.
-            <br />
-            <br /> If your vision is to build industrial and logistics parks
-            that embrace the future, you've come to the right people.
+            We deliver on our promises, with expertise in land acquisition, site
+            selection, and customised facility development to fit your needs and
+            schedule.
           </motion.p>
           <motion.div variants={fadeIn}>
             <Link

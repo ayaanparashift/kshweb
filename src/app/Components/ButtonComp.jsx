@@ -21,7 +21,7 @@ const ButtomComp = () => {
           className="group-hover:rotate-0 group-hover:scale-[120%] transition-transform duration-[400ms] ease-in-out  h-10 w-10 rotate-45 hover:rotate-0 cursor-pointer"
           alt="Red Arrow Icon"
         />
-        <p className="text-[#092241] fsans-600">Find out why</p>
+        <p className="text-[#092241] fsans-600">Find Out Why</p>
       </Link>
       {/* 
       <button className="flex group hover:translate-x-[5px] transition-transform duration-[400ms] items-center justify-center gap-3">

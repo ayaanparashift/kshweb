@@ -236,12 +236,7 @@ const EsgF = () => {
             </div>
           </div>
           <div className="hidden lg:w-[60%] md:flex items-center justify-center">
-            <video
-              src="/Esg/KSH Final Sustainability.mp4"
-              autoPlay
-              loop
-              muted
-            ></video>
+            <video src="/homepage/esgfinal.mp4" autoPlay loop muted></video>
           </div>
         </motion.div>
       </div>

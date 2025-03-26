@@ -37,56 +37,56 @@ const Usp = () => {
   const swcontent = [
     {
       title: "Strategic Locations for Business Growth",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/str1.svg",
       content: "Positioned near major hubs for cost-efficiency.",
     },
     {
       title: "Customizable Facilities for Every Need",
-      icon: "/uspicons/icon2.svg",
+      icon: "/uspicons/cus2.svg",
       content: "Offers custom-built and move-in ready options.",
     },
     {
       title: "Move-In Ready Facilities",
-      icon: "/uspicons/icon4.svg",
+      icon: "/uspicons/mov3.svg",
       content: "Pre-built, equipped spaces for ready occupancy.",
     },
     {
       title: "Committed to Sustainability",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/sus4.svg",
       content:
         "Features such as solar power green areas cultivated following the acclaimed Miyawaki method demonstrate our reverence for mother earth.",
     },
     {
       title: "24-Hour Security Measures",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/sec5.svg",
       content:
         "Utilizes advanced systems such as drones as well as traditional measures for safety and security.",
     },
     {
       title: "Emergency Preparedness",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/eme6.svg",
       content:
         "Quick response teams and on-site availability of medical services means we are ready for any emergency.",
     },
     {
       title: "Community Engagement",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/comm7.svg",
       content:
         "Our events and spaces dedicated to wellness support and promote physical and emotional health practices.",
     },
     {
       title: "Streamlined Transportation and Logistics",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/tra8.svg",
       content: "We provide efficient transport with smart docking.",
     },
     {
       title: "Innovative Facility Management Systems",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/fac9.svg",
       content: "We use mobile apps for dynamic facility oversight.",
     },
     {
       title: "Smart Energy and Resource Management",
-      icon: "/uspicons/icon1.svg",
+      icon: "/uspicons/eng10.svg",
       content: "We employ technology to minimize energy costs.",
     },
   ];

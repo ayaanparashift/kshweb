@@ -23,36 +23,40 @@ const TrustedPartners = ({ paddingB }) => {
         <div className="merqueSlide flex items-center justify-between h-[90px]">
           <Marquee direction="left" speed={120}>
             <div className="flex space-x-12 md:space-x-12">
-              <img src="/tpfiles/jcb.svg" alt="JCB" className="ml-28" />
-              <img src="/tpfiles/envs.svg" alt="JCB" />
-              <img src="/tpfiles/mgh.svg" alt="JCB" />
-              <img src="/tpfiles/htl.svg" alt="JCB" />
-              <img src="/tpfiles/apm.svg" alt="JCB" />
-              <img src="/tpfiles/unsc.svg" alt="JCB" />
+              <img src="/tpfiles/r1/call11.svg" alt="JCB" className="ml-28" />
+              <img src="/tpfiles/r1/lin12.svg" alt="JCB" />
+              <img src="/tpfiles/r1/ren13.svg" alt="JCB" />
+              <img src="/tpfiles/r1/kaw14.svg" alt="JCB" />
+              <img src="/tpfiles/r1/uni15.svg" alt="JCB" />
+              <img src="/tpfiles/r1/rie16.svg" alt="JCB" />
+              <img src="/tpfiles/r1/sal17.svg" alt="JCB" />
             </div>
           </Marquee>
         </div>
         <div className="merqueSlide flex items-center justify-between h-[90px]">
           <Marquee direction="right" speed={120}>
             <div className="flex space-x-12 md:space-x-12">
-              <img src="/tpfiles/apm.svg" alt="JCB" className="ml-28" />
-              <img src="/tpfiles/call.svg" alt="JCB" />
-              <img src="/tpfiles/kclk.svg" alt="JCB" />
-              <img src="/tpfiles/rtr.svg" alt="JCB" />
-              <img src="/tpfiles/nsn.svg" alt="JCB" />
-              <img src="/tpfiles/hndi.svg" alt="JCB" />
+              <img src="/tpfiles/r2/exc21.svg" alt="JCB" className="ml-28" />
+              <img src="/tpfiles/r2/hyu22.svg" alt="JCB" />
+              <img src="/tpfiles/r2/ksh23.svg" alt="JCB" />
+              <img src="/tpfiles/r2/kim24.svg" alt="JCB" />
+              <img src="/tpfiles/r2/ged25.svg" alt="JCB" />
+              <img src="/tpfiles/r2/bos26.svg" alt="JCB" />
+              <img src="/tpfiles/r2/jcb27.svg" alt="JCB" />
             </div>
           </Marquee>
         </div>
         <div className="merqueSlide flex items-center justify-between h-[90px]">
           <Marquee direction="left" speed={120}>
             <div className="flex space-x-12 md:space-x-12">
-              <img src="/tpfiles/jcb.svg" alt="JCB" className="ml-28" />
-              <img src="/tpfiles/envs.svg" alt="JCB" />
-              <img src="/tpfiles/mgh.svg" alt="JCB" />
-              <img src="/tpfiles/htl.svg" alt="JCB" />
-              <img src="/tpfiles/apm.svg" alt="JCB" />
-              <img src="/tpfiles/unsc.svg" alt="JCB" />
+              <img src="/tpfiles/r3/env31.svg" alt="JCB" className="ml-28" />
+              <img src="/tpfiles/r3/kli32.svg" alt="JCB" />
+              <img src="/tpfiles/r3/jab33.svg" alt="JCB" />
+              <img src="/tpfiles/r3/htl.svg" alt="JCB" />
+              <img src="/tpfiles/r3/apm.svg" alt="JCB" />
+              <img src="/tpfiles/r3/fau.svg" alt="JCB" />
+              <img src="/tpfiles/r3/nis.svg" alt="JCB" />
+              <img src="/tpfiles/r3/mgh.svg" alt="JCB" />
             </div>
           </Marquee>
         </div>

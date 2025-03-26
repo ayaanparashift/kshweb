@@ -61,7 +61,7 @@ const SwiperCard = ({ title, icon, content }) => {
             src={icon}
             alt="Icon"
             className="transition-all duration-700 ease-[0.7,0,0.4,1] 
-                   group-hover:invert group-hover:brightness-0 group-hover:contrast-100"
+                   group-hover:invert group-hover:brightness-0 group-hover:contrast-100 w-[100px] h-[100px]"
           />
         </div>
 

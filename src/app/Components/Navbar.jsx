@@ -319,7 +319,11 @@ const Navbar = () => {
       <div className="fix12 flex justify-between relative">
         <div>
           <Link href="/">
-            <img src="/navlogo.svg" alt="Nav Logo" />
+            <img
+              src="/nav/kshlogo.svg"
+              className="h-full w-full object-cover max-w-[180px]"
+              alt="Nav Logo"
+            />
           </Link>
         </div>
 

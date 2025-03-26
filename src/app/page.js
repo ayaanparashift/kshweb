@@ -1,23 +1,30 @@
-import About from "./Components/About";
-import Esg from "./Components/Esg";
-import Parent from "./Components/CNPO/Parent";
-import TS from "./Components/TabSlider/TS";
-import TrustedPartners from "./Components/TrustedPartners";
-import PFetch from "./Components/CNPOF/PFetch";
-import NewUSP from "./Components/USPF/NewUSP";
-// import Usp from "./Components/USP/Usp";
-import LandingSwiper from "./Components/LandingSwiper";
-// import Capabilities from "./Components/Capability";
-import SlideSection from "./Components/SlideSection";
-import BentoSlider from "./Components/BentoSlider";
+import Head from "next/head";
 import AboutF from "./Components/AboutF";
 import CapabilitiesF from "./Components/CapabilityF";
+import NewUSP from "./Components/USPF/NewUSP";
+import PFetch from "./Components/CNPOF/PFetch";
+import TrustedPartners from "./Components/TrustedPartners";
 import EsgF from "./Components/EsgF";
 import SlideSectionF from "./Components/SlideSectionF";
+import BentoSlider from "./Components/BentoSlider";
+import LandingSwiper from "./Components/LandingSwiper";
+export const metadata = {
+  title: "KSH Infra - Inspiring Green Development",
+  description:
+    "Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India.",
+};
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>KSH Infra - Inspiring Green Development</title>
+        <meta
+          name="description"
+          content="Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <LandingSwiper />
       <AboutF />
       <CapabilitiesF />
@@ -25,9 +32,7 @@ export default function Home() {
       <PFetch />
       <TrustedPartners />
       <EsgF />
-
       <SlideSectionF />
-
       <BentoSlider />
     </>
   );

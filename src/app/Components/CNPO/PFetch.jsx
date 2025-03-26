@@ -22,31 +22,44 @@ export default function PFetch() {
       { id: 4, title: "Case Studies Title 4", content: "Case study 4" },
     ],
     News: [
-      { id: 5, title: "Global Markets Surge", content: "News 1" },
-      { id: 6, title: "Policy Reforms Announced", content: "News 2" },
-      { id: 7, title: "Tech Giants Merge", content: "News 3" },
-      { id: 8, title: "Rising Economy Outlook", content: "News 4" },
+      {
+        id: 5,
+        title: "Mapletree Investments Acquires KSH Infra’s logistics asset",
+        content: "Mapletree Investments Acquires KSH Infra’s logistics asset",
+      },
+      {
+        id: 6,
+        title: "Post covid-19 opportunities in India",
+        content: "Post covid-19 opportunities in India",
+      },
+      {
+        id: 7,
+        title: "Benefits of moving into a sustainable Industrial Park",
+        content: "Benefits of moving into a sustainable Industrial Park",
+      },
+      {
+        id: 8,
+        title:
+          "IndoSpace inks Rs 1,000 cr JV with KSH INFRA to develop Logistics Parks across India",
+        content:
+          "IndoSpace inks Rs 1,000 cr JV with KSH INFRA to develop Logistics Parks across India",
+      },
     ],
     "Press Release": [
-      { id: 9, title: "New Product Launch", content: "Press Release 1" },
-      { id: 10, title: "Merger Announcement", content: "Press Release 3" },
+      { id: 10, title: "New Product Launch", content: "Press Release 1" },
+      { id: 11, title: "Merger Announcement", content: "Press Release 3" },
       {
-        id: 11,
+        id: 12,
         title: "Quarterly Financial Update",
         content: "Press Release 2",
       },
       {
-        id: 12,
+        id: 13,
         title: "Strategic Partnership Formed",
         content: "Press Release 4",
       },
     ],
     Others: [
-      {
-        id: 13,
-        title: "CEO Interview Insights",
-        content: "CEO Interview Insights 1",
-      },
       {
         id: 14,
         title: "Community Initiative Kickoff",

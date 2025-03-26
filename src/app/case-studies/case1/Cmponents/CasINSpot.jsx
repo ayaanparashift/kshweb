@@ -5,28 +5,40 @@ import { motion } from "framer-motion";
 const CasINSpot = () => {
   const [isActive, setIsActive] = useState(1);
   return (
-    <div className="bg-[#092241] overflow-hidden">
-      <motion.div
-        className="bg-[url(/fistfold.png)] bg-cover bg-center w-screen"
-        initial="hidden"
-        animate={isActive ? "visible" : "hidden"}
-        exit="exit"
-      >
-        <div className="fix12 pt-20 pb-[60px]">
-          <div className="pb-16">
-            <p className="text-[#D7D7D7A3] text-base fsans-400 pb-7">{`Home > Blog`}</p>
+    <div className="bg-[url(/fistfold.png)] bg-cover bg-center pt-[50px] overflow-hidden">
+      <div className="fix12 pt-20 pb-[60px] overflow-hidden">
+        <div className="pb-16">
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
+            viewport={{ amount: 0.1, once: true }}
+            className="text-[#D7D7D7A3] text-base fsans-400 pb-7"
+          >{`Home > Case Studies > Case 1`}</motion.p>
 
-            <div className="space-y-7">
-              <h1 className="w-fit fpt-500 text-[60px] leading-[105%] text-white border-b-[4px] border-b-[#F7E327]">
-                India kawasaki Motors{" "}
-              </h1>
-            </div>
-          </div>
-          <div className="imgCon">
-            <img src="/caseInside/caseInsideSpot.png" alt="" />
+          <div className="space-y-7">
+            <motion.h1
+              initial={{ width: 0 }}
+              whileInView={{ width: "fit-content" }}
+              transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
+              viewport={{ amount: 0.1, once: true }}
+              className="md:text-[60px] text-[30px] md:w-[400px] w-fit ftp-500 text-white border-b-[6px] border-[#F7E327] whitespace-nowrap overflow-hidden"
+            >
+              Kawasaki
+            </motion.h1>
           </div>
         </div>
-      </motion.div>
+        <div className="imgCon">
+          <motion.img
+            initial={{ opacity: 0, translateY: "100px" }}
+            whileInView={{ opacity: 1, translateY: 0 }}
+            transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
+            viewport={{ amount: 0.1, once: true }}
+            src="/caseInside/caseInsideSpot.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   );
 };

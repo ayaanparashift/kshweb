@@ -176,15 +176,6 @@ const CapabilitiesF = () => {
 
             {/* Navigation Buttons */}
             <div className="flex items-center xl-1366:pt-20 pt-[35px] xl:w-[60%] xl-1280:w-[80%] xl-1024:w-[90%] xl-1440:w-[90%] md:w-[100%] w-[100%] justify-between">
-              {/* <div className="flex items-center gap-4 text-[#fff] text-[16px] group hover:translate-x-[5px] transition-transform duration-[400ms] cursor-pointer">
-                <img
-                  src="/buttonarrows/redarico.svg"
-                  className="group-hover:rotate-0 group-hover:scale-[120%] transition-transform duration-[400ms] ease-in-out  h-10 w-10 rotate-45 hover:rotate-0 cursor-pointer"
-                  alt=""
-                />
-                Explore Capabilities
-              </div> */}
-
               <Link
                 href="/capabilities"
                 className="flex group hover:translate-x-[5px] transition-transform duration-[400ms] items-center justify-center gap-3"

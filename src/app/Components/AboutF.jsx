@@ -76,9 +76,7 @@ const AboutF = () => {
               >
                 At KSH INFRA, we develop Grade A industrial and logistics parks
                 ecosystems, built on the foundations of trust, integrity, and
-                environmental sustainability. This is the reason we remain the
-                preferred choice for leading organizations at a growing number
-                of industrial hubs nationwide.
+                environmental sustainability.
               </h2>
             </motion.div>
             <motion.div
@@ -91,9 +89,9 @@ const AboutF = () => {
                 delay: 0.25,
               }}
             >
-              <p className="flato-400 text-[18px] leading-[26px] text-[#6C8DAB]">
-                If your vision is to build industrial and logistics parks that
-                embrace the future, youve come to the right people.
+              <p className="flato-400 text-[18px] leading-[26px] text-[#6C8DAB] w-[300px]">
+                We remain the preferred choice for leading organizations at a
+                growing number of industrial hubs nationwide.
               </p>
             </motion.div>
             <ButtomComp />

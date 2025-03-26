@@ -223,8 +223,6 @@ const Footer = () => {
             <div className="flex flex-col gap-4 text-[#6c8dab80] text-base font-semibold">
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
-              <Link href="/insights">Insights</Link>
-              <Link href="/sustainability">Sustainability</Link>
               <Link href="/careers">Careers</Link>
               <Link href="/contact">Contact Us</Link>
             </div>
@@ -240,16 +238,11 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h2 className="pb-5 text-base font-semibold">Sectors</h2>
+            <h2 className="pb-5 text-base font-semibold">Others</h2>
             <div className="flex flex-col gap-4 text-[#6c8dab80] text-base font-semibold">
-              <Link href="/sectors/automotive">Automotive</Link>
-              <Link href="/sectors/ecommerce-retail">Ecommerce & Retail</Link>
-              <Link href="/sectors/healthcare">Healthcare</Link>
-              <Link href="/sectors/hi-tech">Hi Tech</Link>
-              <Link href="/sectors/hospitality">Hospitality</Link>
-              <Link href="/sectors/perishable">Perishable</Link>
-              <Link href="/sectors/renewable-energy">Renewable Energy</Link>
-              <Link href="/sectors/retail-fashion">Retail and Fashion</Link>
+              <Link href="/investor">Investor</Link>
+              <Link href="/capabilities">Capabilities</Link>
+              <Link href="/sustainability">Sustainability</Link>
             </div>
           </div>
         </div>

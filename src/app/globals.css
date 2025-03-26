@@ -646,8 +646,8 @@ li {
   gap: 40px;
 }
 .caseSolGlass {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(16, 16, 70, 0.26);
+  background-blend-mode: multiply;
+  backdrop-filter: blur(2px);
 }

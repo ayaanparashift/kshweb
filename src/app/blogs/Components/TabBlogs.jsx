@@ -88,8 +88,9 @@ const TabBlogs = () => {
       {
         id: 1,
         category: "News",
-        image: "/blog/blogin/blogin1.png",
-        title: "Latest News in Logistics",
+        image: "/blog/blog1.jpg",
+        title: `The Evolution of Grade A Industrial and Logistics Parks: Trends
+              and Insights`,
       },
       {
         id: 2,

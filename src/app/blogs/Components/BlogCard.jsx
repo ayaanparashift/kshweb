@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogCard = ({ blog }) => {
@@ -19,12 +20,15 @@ const BlogCard = ({ blog }) => {
             {blog.title}
           </h3>
         </div>
-        <div className="flex items-center gap-2">
+        <Link
+          href="blogs/the-evolution-of-grade-a-industrial-and-logistics-parks-trends-and-insights"
+          className="flex items-center gap-2"
+        >
           <div className="w-[30px] h-[30px] bg-[#EEF0F3] rounded-full flex items-center justify-center">
             <img src="./AboutPage/AboutGrowth/learnMore.svg" alt="Learn More" />
           </div>
           <p>Learn More</p>
-        </div>
+        </Link>
       </div>
     </div>
   );

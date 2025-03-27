@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 
-const MapSC = ({ parkimg, title, city, tarea, tbuild }) => {
+const MapSC = ({ parkimg, title, city, tarea, tbuild, parkLink }) => {
   return (
     <>
       <div className="relative pb-[65px]">
@@ -28,16 +29,19 @@ const MapSC = ({ parkimg, title, city, tarea, tbuild }) => {
             </div>
           </div>
         </div>
-        <button className="flex group hover:translate-x-[5px] transition-transform duration-[400ms] items-center justify-center gap-3">
+        <Link
+          href={parkLink}
+          className="flex mt-5 group hover:translate-x-[5px] transition-transform duration-[400ms] items-center justify-start gap-3 w-full"
+        >
           <img
             src="/buttonarrows/redarico.svg"
             width={0}
             height={0}
-            className="mt-2 h-10 w-10 rotate-45 group-hover:rotate-0 group-hover:scale-[120%] transition-transform duration-300 cursor-pointer"
+            className="h-10 w-10 rotate-45 group-hover:rotate-0 group-hover:scale-[120%] transition-transform duration-300 cursor-pointer"
             alt="Red Arrow Icon"
           />
           <p className="text-[#ffffff] fsans-600">Explore More</p>
-        </button>
+        </Link>
       </div>
     </>
   );

@@ -20,6 +20,7 @@ const Map1 = () => {
       title: "KSH Chakan IV",
       city: "Pune, Maharashtra",
       tarea: "0.66MN. SQ. FT.",
+      parkLink: "/parks/chakan-iv",
       tbuild: "02 BUILDINGS",
     },
     {
@@ -27,6 +28,7 @@ const Map1 = () => {
       title: "KSH Chakan III",
       city: "Pune, Maharashtra",
       tarea: "1.49MN. SQ. FT.",
+      parkLink: "/parks/chakan-iii",
       tbuild: "08 BUILDINGS",
     },
     {
@@ -34,13 +36,15 @@ const Map1 = () => {
       title: "KSH Chakan II",
       city: "Pune, Hyderabad",
       tarea: "1.2MN. SQ. FT.",
+      parkLink: "/parks/chakan-ii",
       tbuild: "05 BUILDINGS",
     },
     {
-      parkimg: "/firstinfra.jpg",
+      parkimg: "/ParkPage/chakan-1/ch1spot.webp",
       title: "KSH Chakan I",
       city: "Pune, Delhi",
       tarea: "0.85MN. SQ. FT.",
+      parkLink: "/parks/chakan-i",
       tbuild: "04 BUILDINGS",
     },
     {
@@ -48,6 +52,7 @@ const Map1 = () => {
       title: "KSH Talegaon",
       city: "NCR, Delhi",
       tarea: "0.14MN. SQ. FT.",
+      parkLink: "/parks/talegaon",
       tbuild: "02 BUILDINGS",
     },
   ];
@@ -238,6 +243,7 @@ const Map1 = () => {
                       tarea={mapd.tarea}
                       tbuild={mapd.tbuild}
                       city={mapd.city}
+                      parkLink={mapd.parkLink}
                     />
                   </SwiperSlide>
                 ))}

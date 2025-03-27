@@ -18,18 +18,18 @@ const LastSw = () => {
       pLink: "/parks/chakan-iv",
     },
     {
-      parkTitle: "KSH Chakan II",
+      parkTitle: "KSH Chakan III",
       pLocal: "Pune | Maharashtra",
       totalLand: "1.2M sf",
       buildings: "05 Buildings",
-      pLink: "/parks/chakan-ii",
+      pLink: "/parks/chakan-iii",
     },
     {
-      parkTitle: "KSH Chakan I",
+      parkTitle: "KSH Chakan II",
       pLocal: "Pune | Maharashtra",
       totalLand: "0.85M sf",
       buildings: "04 Buildings",
-      pLink: "/parks/chakan-i",
+      pLink: "/parks/chakan-ii",
     },
   ];
   return (

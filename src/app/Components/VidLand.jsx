@@ -10,7 +10,7 @@ const VidLand = () => {
         muted
         playsInline
         loop
-        src="/spotlightvid.mp4"
+        src="/homepage/hsotvid.mp4"
       ></video>
     </div>
   );

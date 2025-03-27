@@ -11,7 +11,7 @@ const SustainSocial = () => {
   return (
     <div className="bg-[#EEF0F3] overflow-hidden">
       {/* <div className="md:ml-[calc((100vw-1250px)/2)] py-16 xl-1280:ml-[50px] xl-1024:ml-[45px] xl-768:ml-[40px] w-[90%] mx-auto"> */}
-      <div className="md:ml-[max(5%,calc((100vw-1250px)/2))] md:py-8 lg:py-16 py-14 w-[90%] mx-auto md:w-full md:mx-0">
+      <div className="fix12 md:pt-8 lg:pt-16 pt-14 flex flex-col gap-[40px]">
         <motion.h1
           initial={{ width: 0 }}
           whileInView={{ width: "100%" }}
@@ -21,7 +21,15 @@ const SustainSocial = () => {
         >
           Social Committment
         </motion.h1>
-
+        <p className="fsans-600 text-[16px] text-[#434343] leading-[26px]">
+          Environmental care is at the centre of KSH's growth and development
+          strategy. The projected savings from KSH INFRA Chakan Park II not only
+          ensure reduced operational costs but also minimise the impact on the
+          environment. In addition to extensive green building regulations
+          coverage, you will find over
+        </p>
+      </div>
+      <div className="md:ml-[max(5%,calc((100vw-1250px)/2))] md:pb-8 lg:pb-16 pb-14 mx-auto md:w-full">
         {/* Swiper Div */}
         <div className="md:pt-14 pt-5">
           <Swiper
@@ -80,18 +88,18 @@ const SustainSocial = () => {
                     POSITIVE COMMUNITY ENGAGEMENT
                   </h1>
                   <div className="md:pt-[38px] pt-6 xl-768:pt-5 text-[#717171] text-[14px] fsans-600 lg:text-base ">
-                    <ul className="flex flex-col gap-[18px] list-disc">
-                      <li>
+                    <ul className="flex flex-col gap-[18px]">
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Advanced waste management systems to minimize
                         environmental impact and maintain cleanliness in
                         surrounding areas
                       </li>
-                      <li>
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Rainwater harvesting and water recycling to promote
                         sustainable water use and support local water
                         conservation efforts.
                       </li>
-                      <li>
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Stormwater drainage systems to prevent flooding,
                         ensuring safer conditions for both our parks and
                         neighboring communities.
@@ -115,13 +123,13 @@ const SustainSocial = () => {
                     EMPLOYEE WELL-BEING
                   </h1>
                   <div className="md:pt-[38px]  pt-6 xl-768:pt-5 text-[#717171] text-[14px]  fsans-600  ">
-                    <ul className="flex flex-col gap-[18px] list-disc">
-                      <li>
+                    <ul className="flex flex-col gap-[18px]">
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Improved accessibility and personnel amenities to create
                         a better, more comfortable experience for employees and
                         visitors.
                       </li>
-                      <li>
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Sustainable infrastructure designed to enhance workplace
                         safety, efficiency, and overall employee satisfaction.
                       </li>
@@ -144,13 +152,13 @@ const SustainSocial = () => {
                     TOWARD A CARBON NEUTRAL FUTURE
                   </h1>
                   <div className="md:pt-[38px]  pt-6 xl-768:pt-5 text-[#717171] text-[14px]  fsans-600 ">
-                    <ul className="flex flex-col gap-[18px] list-disc">
-                      <li>
+                    <ul className="flex flex-col gap-[18px]">
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Solar energy option available at all our industrial and
                         logistics parks to reduce reliance on the national power
                         grid.
                       </li>
-                      <li>
+                      <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Sustainable development practices integrated into all
                         our future projects, ensuring long-term environmental
                         responsibility.

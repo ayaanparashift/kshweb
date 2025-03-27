@@ -77,7 +77,7 @@ const SustainDownload2 = () => {
               {tabs.map((tab, index) => (
                 <button
                   key={index}
-                  className={`px-3 h-[46px] border-[#D7D7D7] border-opacity-50 border-[2px] text-white rounded-[10px] ${
+                  className={`px-3 h-[46px] border-[#D7D7D7] border-opacity-30 border-[2px] text-white rounded-[10px] ${
                     activeIndex === index
                       ? "bg-red-700 border-red-700"
                       : "bg-transparent"

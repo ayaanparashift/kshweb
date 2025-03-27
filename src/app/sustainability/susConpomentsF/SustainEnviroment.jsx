@@ -147,34 +147,34 @@ const SustainEnviroment = () => {
   const swcontent = [
     {
       title: "Intelligent Energy Management",
-      icon: "/uspicons/icon1.svg",
+      icon: "/Sustainability/icons/sus1.svg",
       content:
         "Optimizing energy consumption for efficiency and sustainability.",
     },
     {
       title: "Preserving Water Resources",
-      icon: "/uspicons/icon2.svg",
+      icon: "/Sustainability/icons/sus2.svg",
       content: "Implementing smart water conservation and recycling systems.",
     },
     {
       title: "Waste Minimization and Segregation",
-      icon: "/uspicons/icon4.svg",
+      icon: "/Sustainability/icons/sus3.svg",
       content: "Reducing, reusing, and recycling for a cleaner environment.",
     },
     {
-      title: "Wellbeing",
-      icon: "/uspicons/icon1.svg",
+      title: "Well-being",
+      icon: "/Sustainability/icons/sus4.svg",
       content:
         "Prioritizing employee health, safety, and a balanced work environment.",
     },
     {
-      title: "Positive Environmental Effects",
-      icon: "/uspicons/icon1.svg",
+      title: "A Positive Environmental Effect",
+      icon: "/Sustainability/icons/sus5.svg",
       content: "Reducing carbon footprint through eco-friendly initiatives.",
     },
     {
-      title: "Sustainable Development Standards",
-      icon: "/uspicons/icon1.svg",
+      title: "Sustainable Development Policy",
+      icon: "/Sustainability/icons/sus6.svg",
       content:
         "Building infrastructure with long-term environmental responsibility.",
     },
@@ -200,7 +200,7 @@ const SustainEnviroment = () => {
           </div>
         </div>
         <div className="flex xl:flex-row flex-col-reverse md:p-0 px-5 pt-0 max-h-fit h-fit lg:gap-0 gap-5 relative">
-          <div className="lg:flex items-end xl:top-[15%] justify-center mt-0 xl:absolute relative xl:left-0 w-full xl:w-[700px] hidden ">
+          <div className="lg:flex items-end lg:top-[10%] xl-1366::top-[5%] justify-center mt-0 xl:absolute relative lg:left-[-100p] xl-1366:left-[-150px] w-full lg:w-[700px] xl-1366:w-[875px] hidden ">
             <motion.img
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -218,9 +218,9 @@ const SustainEnviroment = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ ease: [0.7, 0, 0.4, 1], duration: 1.4 }}
               viewport={{ once: true, amount: 0.3 }}
-              className="flex sm:flex-row flex-col sm:items-center items-start justify-start gap-[20px] sm:gap-[92px] w-full sm:w-[90%] sm:mx-auto xl:w-auto xl-1024:mr-[50px] xl-1280:mr-[59px] xl-1366:mr-[55px] xl-1600:mr-[171px] xl-1536:mr-[145px] xl-1440:mr-[90px] xl-1920:mr-[29%]"
+              className="flex sm:flex-row flex-col sm:items-center items-start justify-start gap-[20px] sm:gap-[92px] w-full sm:w-[90%] sm:mx-auto xl:w-auto lg:mr-[max(5%,calc((100vw-1250px)/2))]"
             >
-              <p className="fsans-400 text-[18px] leading-[26px] text-[#6C8DAB] z-[1]">
+              <p className="fsans-400 text-[16px] leading-[26px] text-[#434343] z-[1]">
                 KSH INFRA Chakan Park II is a great example of how KSH INFRA is
                 driving sustainable environmental practices while creating
                 modern, high-quality warehousing and industrial parks.
@@ -243,7 +243,8 @@ const SustainEnviroment = () => {
                 400: { slidesPerView: 1.2, spaceBetween: 10 },
                 768: { slidesPerView: 2, spaceBetween: 20 },
                 769: { slidesPerView: 3, spaceBetween: 20 },
-                1279: { slidesPerView: 2.5, spaceBetween: 20 },
+                1024: { slidesPerView: 2.2, spaceBetween: 20 },
+                1281: { slidesPerView: 2.5, spaceBetween: 20 },
                 1366: { slidesPerView: 2.5, spaceBetween: 40 },
                 1536: { slidesPerView: 3, spaceBetween: 40 },
                 1920: { slidesPerView: 4, spaceBetween: 40 },
@@ -252,8 +253,10 @@ const SustainEnviroment = () => {
               {swcontent.map((slide, index) => (
                 <SwiperSlide key={slide.icon + index}>
                   <SwiperCard
+                    transform="uppercase"
                     content={slide.content}
                     title={slide.title}
+                    fsize="16px"
                     icon={slide.icon}
                   />
                 </SwiperSlide>

@@ -128,7 +128,7 @@ const CapDev = () => {
       title: "Build-to-Suit Solutions",
       content:
         "This is the content for Built to Suit. You can add more details here!",
-      image: "./Cap/captabimg.png",
+      image: "/Cap/captabimg.png",
       listItems: [
         "Customized Design: Collaborate on design and construction to ensure that the facilities meet your operational needs.",
         "Client Involvement: We work closely and cohesively with our clients in all the development phases, from layout planning to infrastructure integration to project delivery.",
@@ -139,7 +139,7 @@ const CapDev = () => {
       title: "Ready-to-Move Solutions",
       content:
         "This is the content for Ready to Move. Provide your ready-to-move details here!",
-      image: "./Cap/captabimg.png",
+      image: "/Cap/rtm.png",
       listItems: [
         "Immediate Availability: Our Ready-to-Move facilities are available for immediate occupation. so that your No construction delays, no waiting hassles.",
         "High Standards: Our spaces conform to best-in-class industrial and logistical standards, and are ready for starting operations on day one.",

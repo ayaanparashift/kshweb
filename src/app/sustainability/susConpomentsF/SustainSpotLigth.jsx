@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const SustainSpotLigth = () => {
   return (
-    <div className="relative bg-[#092241] h-[350px] md:h-[550px] lg:h-[650px] min-1366:h-[95vh] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] lg:h-[99vh] min-1366:h-[95vh] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[125px] md:pt-[140px] xl-1920:pt-44">
         <motion.p
@@ -29,7 +29,7 @@ const SustainSpotLigth = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="./Sustainability/sustainSpot.png"
+        src="/Sustainability/susspot.webp"
         // className="absolute bottom-0 w-full h-[637px]"
         className="absolute bottom-0 w-full "
         alt=""

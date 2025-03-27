@@ -9,10 +9,28 @@ import SustainGovernence from "./susConpomentsF/SustainGovernence";
 import SustainDownload from "./susConpomentsF/SustainDownload";
 import SustainDownload2 from "./susConpomentsF/SustainDownload2";
 import PopForm from "./susConpomentsF/PopForm";
+// import Head from "next/head";
 
+// const metadata = {
+//   title:
+//     "Driving Sustainable Development: KSH INFRA&#039;s Commitment to Sustainability",
+//   desc: "Discover how KSH INFRA is committed to sustainability through EDGE Certification, IGBC Platinum-compliant planning, environmental care, social impact norms, employee engagements, diversity and inclusion, and community actions.",
+// };
+import Head from "next/head";
+
+export const metadata = {
+  title:
+    "Driving Sustainable Development: KSH INFRA&#039;s Commitment to Sustainability",
+  desc: "Discover how KSH INFRA is committed to sustainability through EDGE Certification, IGBC Platinum-compliant planning, environmental care, social impact norms, employee engagements, diversity and inclusion, and community actions.",
+};
 const page = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.desc} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <SustainSpotLigth />
       <SustainSec2 />
       <SustainDownload />
@@ -20,7 +38,7 @@ const page = () => {
       <SustainEnviroment />
       <SustainSocial />
       <SustainGovernence />
-    </div>
+    </>
   );
 };
 

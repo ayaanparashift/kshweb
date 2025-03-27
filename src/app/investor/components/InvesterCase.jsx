@@ -219,17 +219,26 @@ const InvesterCase = () => {
                 className=" pt-10 space-y-[40px]"
               >
                 <p className="text-base fsans-400 leading-[26px] ">
-                  Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                  minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat.Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Mapletree is a global company specializing in real estate
+                  development, investment, capital, and property management,
+                  with a strong commitment to sustainability. The company
+                  continually creates new investment opportunities to meet the
+                  evolving needs of investors and aims to expand its presence by
+                  diversifying its portfolio with investments across the Asia
+                  Pacific, Europe, the United Kingdom, and the United States.
                 </p>
-                <p className="text-base fsans-400 leading-[26px] ">
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
-                </p>
+                <a
+                  target="_blank"
+                  href="https://en.mapletree.com.sg/"
+                  className="fsans-600 flex gap-[10px] items-center"
+                >
+                  Read more
+                  <img
+                    className="h-8 w-8"
+                    src="/buttonarrows/redarico.svg"
+                    alt="Redarrow"
+                  />
+                </a>
               </motion.div>
             </div>
           </div>

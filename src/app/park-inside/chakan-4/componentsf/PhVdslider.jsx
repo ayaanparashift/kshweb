@@ -354,36 +354,39 @@ import "swiper/css/free-mode";
 
 const ParkGallery = () => {
   const [acbtn, setAcBtn] = useState("Photos");
+
   const swiperRef1 = useRef(null);
   const swiperRef2 = useRef(null);
 
   useEffect(() => {
-    if (acbtn === "Photos" && swiperRef1.current) {
-      swiperRef1.current.swiper.update();
-    } else if (acbtn === "Videos" && swiperRef2.current) {
-      swiperRef2.current.swiper.update();
-    }
+    setTimeout(() => {
+      if (acbtn === "Photos" && swiperRef1.current) {
+        swiperRef1.current.update();
+      } else if (acbtn === "Videos" && swiperRef2.current) {
+        swiperRef2.current.update();
+      }
+    }, 200); // Delay to ensure Swiper has mounted
   }, [acbtn]);
 
   return (
-    <div className='py-[65px] overflow-hidden w-full'>
-      <div className='fix12'>
-        <GenLineHead heading='Park Gallery' acbtn={acbtn} setAcBtn={setAcBtn} />
+    <div className="py-[65px] overflow-hidden w-full">
+      <div className="fix12">
+        <GenLineHead heading="Park Gallery" acbtn={acbtn} setAcBtn={setAcBtn} />
       </div>
 
       {/* Sliders Wrapper */}
-      <div className='ml-[max(5%,calc((100vw-1250px)/2))] min-h-[420px]'>
-        <AnimatePresence mode='wait'>
+      <div className="ml-[max(5%,calc((100vw-1250px)/2))] min-h-[420px]">
+        <AnimatePresence mode="wait">
           {acbtn === "Photos" && (
             <motion.div
-              key='photos-slider'
+              key="photos-slider"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
               <Swiper
-                ref={swiperRef1}
+                onSwiper={(swiper) => (swiperRef1.current = swiper)}
                 modules={[Navigation, FreeMode]}
                 spaceBetween={4}
                 slidesPerView={1.5}
@@ -405,9 +408,9 @@ const ParkGallery = () => {
                   (img, index) => (
                     <SwiperSlide key={index}>
                       <img
-                        className='w-[690px] select-none h-[380px] max-w-[100%]'
+                        className="w-[690px] select-none h-[380px] max-w-[100%]"
                         src={`/ParkPage/${img}`}
-                        alt=''
+                        alt=""
                       />
                     </SwiperSlide>
                   )
@@ -415,20 +418,20 @@ const ParkGallery = () => {
               </Swiper>
 
               {/* Navigation Buttons for Photos */}
-              <div className='fix12 flex items-start pt-[20px] w-full'>
-                <div className='flex gap-[14px] items-center w-full justify-start'>
-                  <button className='swiper-button-prev-slider1 h-[41px] w-[41px]'>
+              <div className="flex items-start pt-[20px] w-full">
+                <div className="flex gap-[14px] items-center w-full justify-start">
+                  <button className="swiper-button-prev-slider1 h-[41px] w-[41px]">
                     <img
-                      className='h-[41px] w-[41px]'
-                      src='/ParkPage/parrowp.svg'
-                      alt='ArrowLeft'
+                      className="h-[41px] w-[41px]"
+                      src="/ParkPage/parrowp.svg"
+                      alt="ArrowLeft"
                     />
                   </button>
-                  <button className='swiper-button-next-slider1 h-[41px] w-[41px]'>
+                  <button className="swiper-button-next-slider1 h-[41px] w-[41px]">
                     <img
-                      className='h-[41px] w-[41px]'
-                      src='/ParkPage/parrown.svg'
-                      alt='ArrowRight'
+                      className="h-[41px] w-[41px]"
+                      src="/ParkPage/parrown.svg"
+                      alt="ArrowRight"
                     />
                   </button>
                 </div>
@@ -438,14 +441,14 @@ const ParkGallery = () => {
 
           {acbtn === "Videos" && (
             <motion.div
-              key='videos-slider'
+              key="videos-slider"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
               <Swiper
-                ref={swiperRef2}
+                onSwiper={(swiper) => (swiperRef2.current = swiper)}
                 modules={[Navigation, FreeMode]}
                 spaceBetween={4}
                 slidesPerView={1.5}
@@ -467,9 +470,9 @@ const ParkGallery = () => {
                   (img, index) => (
                     <SwiperSlide key={index}>
                       <img
-                        className='w-[690px] select-none h-[380px] max-w-[100%]'
+                        className="w-[690px] select-none h-[380px] max-w-[100%]"
                         src={`/ParkPage/${img}`}
-                        alt=''
+                        alt=""
                       />
                     </SwiperSlide>
                   )
@@ -477,20 +480,20 @@ const ParkGallery = () => {
               </Swiper>
 
               {/* Navigation Buttons for Videos */}
-              <div className='fix12 flex items-start pt-[20px] w-full'>
-                <div className='flex gap-[14px] items-center w-full justify-start'>
-                  <button className='swiper-button-prev-slider2 h-[41px] w-[41px]'>
+              <div className="flex items-start pt-[20px] w-full">
+                <div className="flex gap-[14px] items-center w-full justify-start">
+                  <button className="swiper-button-prev-slider2 h-[41px] w-[41px]">
                     <img
-                      className='h-[41px] w-[41px]'
-                      src='/ParkPage/parrowp.svg'
-                      alt='ArrowLeft'
+                      className="h-[41px] w-[41px]"
+                      src="/ParkPage/parrowp.svg"
+                      alt="ArrowLeft"
                     />
                   </button>
-                  <button className='swiper-button-next-slider2 h-[41px] w-[41px]'>
+                  <button className="swiper-button-next-slider2 h-[41px] w-[41px]">
                     <img
-                      className='h-[41px] w-[41px]'
-                      src='/ParkPage/parrown.svg'
-                      alt='ArrowRight'
+                      className="h-[41px] w-[41px]"
+                      src="/ParkPage/parrown.svg"
+                      alt="ArrowRight"
                     />
                   </button>
                 </div>

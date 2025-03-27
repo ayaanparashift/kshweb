@@ -125,7 +125,7 @@ import { AnimatePresence, motion } from "framer-motion";
 const CapDev = () => {
   const tabs = [
     {
-      title: "Built to Suit",
+      title: "Build-to-Suit Solutions",
       content:
         "This is the content for Built to Suit. You can add more details here!",
       image: "./Cap/captabimg.png",
@@ -136,7 +136,7 @@ const CapDev = () => {
       ],
     },
     {
-      title: "Ready to Move",
+      title: "Ready-to-Move Solutions",
       content:
         "This is the content for Ready to Move. Provide your ready-to-move details here!",
       image: "./Cap/captabimg.png",

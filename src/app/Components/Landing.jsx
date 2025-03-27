@@ -256,17 +256,17 @@ const Landing = ({ isActive }) => {
       animate={isActive ? "visible" : "hidden"}
       exit="exit"
     >
-      <div className="fix12 flex items-center lg:justify-center justify-end xl-1920:max-h-fit h-screen pb-[75px] pt-[0px] md:py-[92px] xl:gap-[100px] md:gap-[50px] gap-[20px] md:flex-row flex-col-reverse">
+      <div className="fix12 flex items-center lg:justify-center justify-end xl-1600:max-h-fit h-screen pb-[75px] pt-[0px] md:py-[92px] xl:gap-[100px] md:gap-[50px] gap-[20px] md:flex-row flex-col-reverse">
         {/* Left Side Content */}
         <motion.div
-          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] lg:h-[500px] justify-end h-full"
+          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] xl-1920:h-full xl-1600:h-[700px] xl:h-[400px] md:h-[500px] justify-end h-full"
           variants={fadeIn2}
           initial="hidden"
           animate={isActive ? "visible" : "hidden"}
           exit="exit"
         >
           <motion.h1
-            className="fpt-600 xl:text-[56px] lg:text-[40px] md:text-[32px] text-[20px] text-white border-b-[5px] md:border-b-[10px] border-[#F7E327] leading-[150%] md:leading-[105%] pb-5 2xl:text-[70px]"
+            className="fpt-600 xl:text-[52px] lg:text-[40px] text-[30px] text-white border-b-[5px] md:border-b-[10px] border-[#F7E327] leading-[150%] md:leading-[105%] pb-5 2xl:text-[70px]"
             variants={fadeIn2}
           >
             {/* Delivering <br className="xl-1920:flex hidden" />

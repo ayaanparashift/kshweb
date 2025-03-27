@@ -10,8 +10,7 @@ import BentoSlider from "./Components/BentoSlider";
 import LandingSwiper from "./Components/LandingSwiper";
 export const metadata = {
   title: "KSH Infra - Inspiring Green Development",
-  description:
-    "Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India.",
+  desc: "Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India.",
 };
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
     <>
       <Head>
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <meta name="description" content={metadata.desc} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <LandingSwiper />

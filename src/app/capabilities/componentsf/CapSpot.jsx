@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 export default function CapSpot() {
   return (
-    <div className="relative bg-[#092241] min-h-[740px] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] h-[430px] md:h-[99vh] z-0 overflow-hidden">
       {/* <div className=""> */}
-      <div className="fix12 pt-[125px] md:pt-[140px] xl-1920:pt-44">
+      <div className="fix12 pt-[125px] md:pt-[160px] xl-1920:pt-44 flex flex-col gap-[20px]">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

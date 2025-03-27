@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const ParkInfo = () => {
   const stats = [
-    { value: "0.85 Mln", label: "SQ. FT. of\nTotal Area" },
+    { value: "0.85 Mn", label: "SQ. FT. of\nTotal Area" },
     { value: "04 No.", label: "Total\nBuildings" },
     { value: "Pune,\nMaharashtra", label: "Park\nLocation" },
   ];

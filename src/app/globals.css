@@ -145,14 +145,14 @@
 
 /* Sustainabiliyt */
 .CertificationsRigthImgBg {
-  background-image: url("../../public/parkOverview/certificateRigth.png");
+  background-image: url("/parkOverview/certificateRigth.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bgSusDown {
-  background-image: url("../../public/Sustainability//SustainabilitySec3Bg.png");
+  background-image: url("/Sustainability//SustainabilitySec3Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -629,7 +629,7 @@ span.park_name {
 
 /* Capabilities */
 .capEnqBg {
-  background-image: url("../../public/Cap/capLast.png");
+  background-image: url("/Cap/capLast.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -639,7 +639,7 @@ li {
 }
 
 .caseStChallengebtmCon ul {
-  list-style-image: url("../../public/caseInside/challengeListIcon.svg");
+  list-style-image: url("/caseInside/challengeListIcon.svg");
   gap: 60px 75px;
 }
 .caseBenefitGrid {

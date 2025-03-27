@@ -26,7 +26,7 @@
 import { motion } from "framer-motion";
 const ParkOverviewSpot = () => {
   return (
-    <div className="relative bg-[#092241] md:h-[742px] h-[430px] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] md:h-[800px] h-[430px] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p

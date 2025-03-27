@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 const InvesRelaSpot = () => {
   return (
-    <div className="relative bg-[#092241] h-[742px] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] h-[95vh] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p
@@ -27,7 +27,7 @@ const InvesRelaSpot = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="./investorRel/investorRelationSpot.png"
+        src="/investorRel/irspot.webp"
         // className="absolute bottom-0 w-full h-[637px]"
         className="absolute bottom-0 w-full "
         alt=""

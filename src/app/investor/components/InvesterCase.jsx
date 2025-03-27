@@ -53,6 +53,7 @@ const InvesterCase = () => {
                   across the country over the next five years.
                 </p>
                 <a
+                  target="_blank"
                   href="https://www.indospace.in/about/"
                   className="text-white fsans-600 flex gap-[10px] items-center"
                 >
@@ -109,6 +110,7 @@ const InvesterCase = () => {
                 </p>
 
                 <a
+                  target="_blank"
                   href="http://www.pcg-group.com/about/"
                   className="text-black fsans-600 flex gap-[10px] items-center"
                 >
@@ -169,6 +171,7 @@ const InvesterCase = () => {
                 </p>
 
                 <a
+                  target="_blank"
                   href="https://www.morganstanley.com/content/imweb/im/en-us/intermediary-manager-research/about-us/investment-teams/real-assets/private-real-estate-investing-team.html"
                   className="text-white fsans-600 flex gap-[10px] items-center"
                 >

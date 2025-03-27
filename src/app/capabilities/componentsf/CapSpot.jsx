@@ -27,7 +27,7 @@ export default function CapSpot() {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="./Cap/capspot.png"
+        src="/Cap/capspot.webp"
         // className="absolute bottom-0 w-full h-[637px]"
         className="absolute bottom-0 w-full"
         alt=""

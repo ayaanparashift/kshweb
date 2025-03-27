@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactSpot = () => {
   return (
-    <div className="relative bg-[#092241] h-[740px] overflow-hidden z-0">
+    <div className="relative bg-[#092241] h-[430px] md:h-[90vh] overflow-hidden z-0">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p
@@ -34,7 +34,7 @@ const ContactSpot = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="./contact/contactheader.webp"
+        src="./contact/contspot.webp"
         className="absolute bottom-0 w-full "
         alt=""
       />

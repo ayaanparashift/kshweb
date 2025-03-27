@@ -18,11 +18,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>KSH Infra - Inspiring Green Development</title>
-        <meta
-          name="description"
-          content="Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India."
-        />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <LandingSwiper />

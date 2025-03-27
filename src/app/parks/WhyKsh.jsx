@@ -25,7 +25,7 @@ const WhyKsh = () => {
       title: "Ready To Move",
       heading: "Ready To Move",
       content:
-        "The KSH INFRA Code of Conduct Handbook sets a high bar for compliance. This encompasses every aspect of how our team interacts with internal and external stakeholders to how our projects are commissioned and managed.",
+        "Our ready-to-move facilities offer modern, pre-built spaces that meet the highest industrial standards. They're perfect when you need to set up quickly without waiting for construction.\nThese spaces come equipped with essential amenities and are designed with the flexibility to serve various industries. You get immediate access to a high-quality operational space that's ready when you are.\nFor businesses that need to move fast without compromising on quality, our ready-to-move options provide the perfect balance of speed and functionality.",
       images: {
         // top: ["./AboutPage/aboutSlide/ab1.jpg"],
         top: ["./parkOverview/builtToSuit.png"],
@@ -33,10 +33,9 @@ const WhyKsh = () => {
     },
     {
       title: "Industry Leading Standards",
-      heading:
-        "KSH IS A LEADING PROVIDER OF INSULATED/COVERED CONDUCTORS ACROSS THE GLOBE.",
+      heading: "Industry-Leading Standards",
       content:
-        "The KSH INFRA Code of Conduct Handbook sets a high bar for compliance. This encompasses every aspect of how our team interacts with internal and external stakeholders to how our projects are commissioned and managed.",
+        "We uphold the highest standards in industrial and logistics real estate. Our excellence shows in how we design, build, and manage facilities.\nWe match and exceed the expectations of customers and regulators by using high-quality materials, following sustainable practices, and adopting cutting-edge technology. Our strict safety compliance and dedicated support for tenants have made KSH INFRA a leader in quality and efficiency. With us, you get more than just space: you get a facility built and managed to exceptional standards that help your business perform better.",
       images: {
         // top: ["./AboutPage/aboutSlide/ab1.jpg"],
         top: ["./parkOverview/builtToSuit.png"],
@@ -113,17 +112,17 @@ const WhyKsh = () => {
               ))}
             </motion.div>
             {/* Animated Content Section */}
-            <div className="w-full md:h-[300px] h-[400px]">
+            <div className="w-full h-full">
               <motion.div
                 key={activeTab} // Re-render on tab change
                 initial={{ x: 500, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 // exit={{ x: -1000, opacity: 0 }}
                 transition={{ duration: 0.6, ease: [0.7, 0, 0.4, 1] }}
-                className="md:w-[516px] xl-1024:w-[400px] contentArea"
+                className="md:w-[80%] xl-1024:w-[400px] contentArea"
               >
                 {/* <div className="flex flex-col  md:h-[240px]"> */}
-                <div className="flex flex-col xl:h-[300px]  md:h-[240px]">
+                <div className="flex flex-col">
                   <h1 className="text-3xl xl-1024:text-xl pt-[57px] xl-1024:pt-7 pb-4 text-white fpt-500">
                     {tabs[activeTab].heading}
                   </h1>
@@ -154,7 +153,7 @@ const WhyKsh = () => {
                   </a>
                 </span>
               </div> */}
-              <div className="flex gap-2 items-center">
+              {/* <div className="flex gap-2 items-center">
                 <button
                   className="rounded-full border flex items-center justify-center disabled:opacity-50"
                   onClick={() => {
@@ -179,13 +178,42 @@ const WhyKsh = () => {
                 >
                   <img className="w-10 h-10" src="/landingl.svg" alt="" />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Right Container with Swipers */}
-          <div className="rightCon flex-1 lg:max-w-[638px] bg-red-500">
+          {/* <div className="rightCon flex-1 lg:max-w-[638px] min-h-full bg-red-500">
+            <div className="min-h-full">
+              <Swiper
+                modules={[EffectFade, Pagination, Navigation]}
+                pagination={{ clickable: true }}
+                navigation
+                className="min-h-full w-full topSlider"
+              >
+                {tabs[activeTab].images.top.map((img, idx) => (
+                  <SwiperSlide style={{ minHeight: "100%" }} key={idx}>
+                    <div className="relative overflow-hidden min-h-full">
+                      <img
+                        src={img}
+                        alt=""
+                        className="min-h-full w-full object-cover"
+                      />
+                      <motion.div
+                        initial={{ x: 0 }}
+                        whileInView={{ x: "100%" }}
+                        transition={{ ease: [0.7, 0, 0.4, 1], duration: 1.4 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        className="absolute top-0 left-0 h-full w-full bg-[#092241] z-50"
+                      />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div> */}
+          <div className="rightCon flex-1 lg:max-w-[638px] min-h-full bg-red-500">
             {/* Top Image Swiper */}
-            <div>
+            <div className="h-full min-h-full">
               <Swiper
                 modules={[EffectFade, Pagination, Navigation]}
                 pagination={{ clickable: true }}
@@ -193,8 +221,8 @@ const WhyKsh = () => {
                 className="h-full w-full topSlider"
               >
                 {tabs[activeTab].images.top.map((img, idx) => (
-                  <SwiperSlide key={idx}>
-                    <div className="relative overflow-hidden">
+                  <SwiperSlide key={idx} className="h-full">
+                    <div className="relative overflow-hidden h-full">
                       <img
                         src={img}
                         alt=""

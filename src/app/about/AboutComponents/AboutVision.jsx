@@ -22,7 +22,7 @@ const AboutVision = () => {
                   <img src="./AboutPage/vision.png" alt="" />
                 </div>
                 <div className="bg-white text-base fsans-600">
-                  <p className="pt-[55px] px-[35px] pb-[25px]">
+                  <p className="pt-[55px] px-[35px] pb-[25px] gradinetText2">
                     To create smart, sustainable warehousing and industrial
                     spaces across India that appreciatively transform how
                     businesses operate.
@@ -70,7 +70,7 @@ const AboutVision = () => {
 
                 {/* Text Block */}
                 <div className="bg-white text-base fsans-600 relative">
-                  <p className="pt-[55px] px-[35px] pb-[25px]">
+                  <p className="pt-[55px] px-[35px] pb-[25px] gradinetText2">
                     To be the first choice for logistics, e-commerce, and
                     manufacturing companies seeking an industrial real estate
                     partner, we aim to create benchmarks and demonstrate

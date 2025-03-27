@@ -27,8 +27,8 @@ const AboutStop = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="./AboutPage/aboutSpot.png"
-        className="absolute bottom-0 w-full h-auto md:h-[637px]"
+        src="./AboutPage/aboutspot.webp"
+        className="absolute bottom-0 w-full h-auto md:h-[519px]"
         alt=""
       />
     </div>

@@ -234,16 +234,36 @@ import AboutOurLeadership from "./AboutComponents/AboutOurLeadership";
 import AboutCap from "./AboutComponents/AboutCap";
 import AboutGrowth from "./AboutComponents/AboutGrowth";
 import AboutStop from "./AboutComponents/AboutStop";
+import Head from "next/head";
+import Timeline from "./AboutComponents/TimeLine";
 
+export const metadata = {
+  title:
+    "KSH Infra: Developing World-Class Grade A Industrial Parks & Logistics Infrastructure",
+  description:
+    "KSH INFRA has till date delivered 2.2 mn sq. ft. of green infrastructure solutions for multinational companies such as Kawasaki Motors, Jabil, Faurecia, Gedia, Rieter, Linamar, Saleri, Kimberly Clark among several others.",
+};
 const page = () => {
   return (
     <>
+      <Head>
+        <title>
+          KSH Infra: Developing World-Class Grade A Industrial Parks & Logistics
+          Infrastructure
+        </title>
+        <meta
+          name="description"
+          content="KSH INFRA has till date delivered 2.2 mn sq. ft. of green infrastructure solutions for multinational companies such as Kawasaki Motors, Jabil, Faurecia, Gedia, Rieter, Linamar, Saleri, Kimberly Clark among several others."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <AboutStop />
       <AboutSec2 />
       <AboutVision />
       <AboutOurLeadership />
       <AboutCap />
       <AboutGrowth />
+      <Timeline />
     </>
   );
 };

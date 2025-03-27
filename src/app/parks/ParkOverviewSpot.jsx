@@ -51,9 +51,9 @@ const ParkOverviewSpot = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1.5, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ amount: 0.1, once: true }}
-        src="/parkOverview/parkOverviewSpot.png"
+        src="/parkOverview/parkspot.webp"
         // className="absolute bottom-0 w-full h-[637px]"
-        className="absolute bottom-0 w-full "
+        className="absolute bottom-0 w-full h-[740px]"
         alt=""
       />
     </div>

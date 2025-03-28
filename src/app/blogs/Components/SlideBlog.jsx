@@ -370,7 +370,7 @@ const SlideBlog = () => {
   };
   return (
     <div
-      className="h-auto lg:h-[690px] flex overflow-hidden"
+      className="h-auto mt-[60px] flex overflow-hidden"
       style={{
         background: "linear-gradient(to bottom, #ffffff 50%, #092241 50%)",
       }}

@@ -235,7 +235,7 @@ import AboutCap from "./AboutComponents/AboutCap";
 import AboutGrowth from "./AboutComponents/AboutGrowth";
 import AboutStop from "./AboutComponents/AboutStop";
 import Head from "next/head";
-import Timeline from "./AboutComponents/TimeLine";
+// import Timeline from "./AboutComponents/TimeLine";
 
 export const metadata = {
   title:
@@ -263,7 +263,7 @@ const page = () => {
       <AboutOurLeadership />
       <AboutCap />
       <AboutGrowth />
-      <Timeline />
+      {/* <Timeline /> */}
     </>
   );
 };

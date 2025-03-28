@@ -23,7 +23,7 @@ const InvesterCase = () => {
                 whileInView={{ width: "100%" }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="fpt-500 text-white pb-2 text-3xl whitespace-nowrap overflow-hidden leading-[33px] border-b-[#D7D7D7] border-b-[1px]"
+                className=" text-white pb-2 text-3xl whitespace-nowrap overflow-hidden leading-[33px] border-b-[#D7D7D7] border-b-[1px]"
               >
                 IndoSpace
               </motion.h1>
@@ -89,7 +89,7 @@ const InvesterCase = () => {
                 whileInView={{ width: "100%" }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="fpt-500 whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#464646] border-b-[1px]"
+                className="text-[#151515]  whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#464646] border-b-[1px]"
               >
                 Pacific Century Group
               </motion.h1>
@@ -100,7 +100,7 @@ const InvesterCase = () => {
                 viewport={{ amount: 0.1, once: true }}
                 className="overflow-hidden pt-10 space-y-[40px]"
               >
-                <p className="text-base fsans-400 leading-[26px] ">
+                <p className="text-[#303030] text-base fsans-400 leading-[26px] ">
                   Pacific Century Group (PCG) is a private investment group
                   based in Asia, founded in 1993. It focuses on three main
                   business sectors: Technology, Media & Telecommunications
@@ -146,7 +146,7 @@ const InvesterCase = () => {
                 whileInView={{ width: "100%" }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="fpt-500 text-white whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#D7D7D7] border-b-[1px]"
+                className=" text-white whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#D7D7D7] border-b-[1px]"
               >
                 Morgan Stanley Real Estate Investing (MSREI)
               </motion.h1>
@@ -207,7 +207,7 @@ const InvesterCase = () => {
                 whileInView={{ width: "100%" }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="fpt-500 whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#464646] border-b-[1px]"
+                className="text-[#151515]  whitespace-nowrap overflow-hidden pb-2 text-3xl leading-[33px] border-b-[#464646] border-b-[1px]"
               >
                 KSH INFRA x Mapletree Investments of Singapore
               </motion.h1>
@@ -218,7 +218,7 @@ const InvesterCase = () => {
                 viewport={{ amount: 0.1, once: true }}
                 className=" pt-10 space-y-[40px]"
               >
-                <p className="text-base fsans-400 leading-[26px] ">
+                <p className="text-[#303030] text-base fsans-400 leading-[26px] ">
                   Mapletree is a global company specializing in real estate
                   development, investment, capital, and property management,
                   with a strong commitment to sustainability. The company

@@ -188,7 +188,7 @@ const CapDev = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-          className="bg-white p-10"
+          className="bg-white p-10 xl:min-h-[456px]"
         >
           {/* Tab Buttons */}
           <div className="flex w-full">

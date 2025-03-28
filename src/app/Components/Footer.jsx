@@ -230,10 +230,11 @@ const Footer = () => {
           <div>
             <h2 className="pb-5 text-base font-semibold">Our Parks</h2>
             <div className="flex flex-col gap-4 text-[#6c8dab80] text-base font-semibold">
-              <Link href="/parks/chakan-i">Chakan I</Link>
-              <Link href="/parks/chakan-ii">Chakan II</Link>
-              <Link href="/parks/chakan-iii">Chakan III</Link>
+              <Link href="/parks">Hosur</Link>
               <Link href="/parks/chakan-iv">Chakan IV</Link>
+              <Link href="/parks/chakan-iii">Chakan III</Link>
+              <Link href="/parks/chakan-ii">Chakan II</Link>
+              <Link href="/parks/chakan-i">Chakan I</Link>
               <Link href="/parks/talegaon">Talegaon</Link>
             </div>
           </div>

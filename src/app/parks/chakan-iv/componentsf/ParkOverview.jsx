@@ -35,7 +35,7 @@ const ParkOverview = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="xl-1280:text-[22px] gradinetText2 leading-[130%] spotlightheaddd fsans-700 text-[20px] mt-[-20px] xl:1024:mt-[-40px] xl-1280:mt-[-20px]"
           >
-            An Integrated Industrial Hu
+            An Integrated Industrial Hub
           </motion.h3>
           <motion.p
             initial={{ opacity: 0 }}

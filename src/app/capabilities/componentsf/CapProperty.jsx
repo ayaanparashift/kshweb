@@ -81,7 +81,11 @@ const CapProperty = () => {
       <div className="bg-[#092241]">
         <div className="fix12 py-[100px] lg:flex gap-10">
           <div className="imgCap flex-1 pb-8 lg:pb-0 relative overflow-hidden">
-            <img src="/Cap/capPro.png" alt="" />
+            <img
+              src="/Cap/capPro.png"
+              className="min-h-full h-full object-cover"
+              alt=""
+            />
             <motion.div
               initial={{ x: 0 }}
               whileInView={{ x: "-100%" }}

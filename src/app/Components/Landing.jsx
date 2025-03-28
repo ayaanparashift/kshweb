@@ -259,7 +259,7 @@ const Landing = ({ isActive }) => {
       <div className="fix12 flex items-center lg:justify-center justify-end xl-1600:max-h-fit h-screen pb-[75px] pt-[0px] md:py-[92px] xl:gap-[100px] md:gap-[50px] gap-[20px] md:flex-row flex-col-reverse">
         {/* Left Side Content */}
         <motion.div
-          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] xl-1920:h-full xl-1600:h-[700px] xl:h-[400px] md:h-[500px] justify-end h-full"
+          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] xl-1920:h-full xl-1600:h-[500px] xl:h-[400px] md:h-[500px] justify-end h-full"
           variants={fadeIn2}
           initial="hidden"
           animate={isActive ? "visible" : "hidden"}

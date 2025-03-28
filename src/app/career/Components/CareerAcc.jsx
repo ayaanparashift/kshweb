@@ -264,7 +264,7 @@ const CareerAcc = () => {
           </motion.div>
 
           {/* Right - Image */}
-          <div className="relative overflow-hidden hidden xl:block w-full h-full">
+          <div className="relative overflow-hidden hidden xl:block w-full min-h-full">
             {accordionData[openIndex] && (
               <img
                 src={accordionData[openIndex]?.image}

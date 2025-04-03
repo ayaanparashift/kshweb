@@ -304,20 +304,7 @@ export default async function BlogPage({ params }) {
       </div>
 
       {/* Related Blogs Section */}
-      <div className="fix12 py-[70px]">
-        <h2
-          className="fpt-600 text-[44px] text-[#092241] mb-10 w-fit"
-          dangerouslySetInnerHTML={{ __html: "Other Blogs" }}
-        />
-        {relatedBlogs.length > 0 ? (
-          <BCSlider relatedBlogs={relatedBlogs} />
-        ) : (
-          <p
-            className="text-center"
-            dangerouslySetInnerHTML={{ __html: "No related blogs available." }}
-          />
-        )}
-      </div>
+      <BCSlider relatedBlogs={relatedBlogs} />
     </div>
   );
 }

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 const InvesRelaSpot = () => {
   return (
-    <div className="relative bg-[#092241] h-[95vh] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] h-[120vh] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p

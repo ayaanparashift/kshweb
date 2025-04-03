@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const MapLineHead = ({ heading }) => {
   return (
-    <div className="relative min-w-full lg:mb-[66px] mb-[36px] tablinehead overflow-hidden whitespace-nowrap">
+    <div className="absolute z-[100000000000000] fix12 top-[100px] left-[max(5%,calc((100vw-1250px)/2))] lg:mb-[0px] mb-[36px] tablinehead overflow-hidden whitespace-nowrap">
       <motion.div
         className="relative flex pb-[20px] overflow-hidden whitespace-nowrap items-center justify-between w-full"
         initial={{ opacity: 0 }}

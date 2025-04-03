@@ -259,7 +259,7 @@ const Landing = ({ isActive }) => {
       <div className="fix12 flex items-center lg:justify-center justify-end xl-1600:max-h-fit h-screen pb-[75px] pt-[0px] md:py-[92px] xl:gap-[100px] md:gap-[50px] gap-[20px] md:flex-row flex-col-reverse">
         {/* Left Side Content */}
         <motion.div
-          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] xl-1920:h-full xl-1600:h-[500px] xl:h-[400px] md:h-[500px] justify-end h-full"
+          className="flex flex-col flex-1 max-w-full lg:gap-[30px] gap-5 xl:flex-[1] xl-1920:h-[500px] xl-1600:h-[500px] xl:h-[400px] md:h-[500px] justify-end h-full"
           variants={fadeIn2}
           initial="hidden"
           animate={isActive ? "visible" : "hidden"}
@@ -318,7 +318,7 @@ const Landing = ({ isActive }) => {
           exit="exit"
         >
           <motion.div
-            className="flex items-end justify-end flex-col xl:w-[490.45px] xl:h-[595px] max-w-full"
+            className="flex items-end justify-end flex-col min-1600:h-[695px] xl:w-[490.45px] xl:h-[595px] max-w-full"
             variants={fadeIn}
           >
             {/* Desktop Image */}
@@ -329,8 +329,14 @@ const Landing = ({ isActive }) => {
               exit="exit"
             >
               <motion.img
+                src="/homepage/landimg1920.png"
+                className="object-cover min-1600:inline-block hidden"
+                alt="some"
+                variants={fadeIn}
+              />
+              <motion.img
                 src="/firstman.png"
-                className="object-cover md:inline-block hidden"
+                className="object-cover min-1600:hidden md:inline-block hidden"
                 alt="some"
                 variants={fadeIn}
               />

@@ -53,7 +53,7 @@ const ParkOverviewSpot = () => {
         viewport={{ amount: 0.1, once: true }}
         src="/parkOverview/parkspot.webp"
         // className="absolute bottom-0 w-full h-[637px]"
-        className="absolute bottom-0 w-full h-[740px]"
+        className="absolute bottom-0 w-full"
         alt=""
       />
     </div>

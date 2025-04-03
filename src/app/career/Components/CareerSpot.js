@@ -29,7 +29,7 @@ export default function CareerSpot() {
         viewport={{ amount: 0.1, once: true }}
         src="./Career/carspot.png"
         // className="absolute bottom-0 w-full h-[637px]"
-        className="absolute bottom-0 w-full"
+        className="absolute bottom-0 w-full h-auto"
         alt=""
       />
     </div>

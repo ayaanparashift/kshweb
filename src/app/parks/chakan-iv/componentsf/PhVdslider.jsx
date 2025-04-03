@@ -62,17 +62,14 @@ const PhVdslider = () => {
                 }}
               >
                 {[
-                  "/chakan-1/chakan-1-1.jpg",
-                  "/chakan-1/chakan-1-2.jpg",
-                  "/chakan-1/chakan-1-3.jpg",
-                  "/chakan-1/chakan-1-4.jpg",
-                  "/chakan-1/chakan-1-5.jpg",
-                  "/chakan-1/chakan-1-6.jpg",
-                  "/chakan-1/chakan-1-7.jpg",
-                  "/chakan-1/chakan-1-8.jpg",
-                  "/chakan-1/chakan-1-9.jpg",
-                  "/chakan-1/chakan-1-10.jpg",
-                  "/chakan-1/chakan-1-11.jpg",
+                  "chakan-4/chakan-4-1.png",
+                  "chakan-4/chakan-4-2.jpg",
+                  "chakan-4/chakan-4-3.jpg",
+                  "chakan-4/chakan-4-4.jpg",
+                  "chakan-4/chakan-4-5.png",
+                  "chakan-4/chakan-4-6.jpg",
+                  "chakan-4/chakan-4-7.png",
+                  "chakan-4/chakan-4-8.png",
                 ].map((img, index) => (
                   <SwiperSlide key={index}>
                     <img
@@ -135,17 +132,14 @@ const PhVdslider = () => {
                 }}
               >
                 {[
-                  "/chakan-1/chakan-1-1.jpg",
-                  "/chakan-1/chakan-1-2.jpg",
-                  "/chakan-1/chakan-1-3.jpg",
-                  "/chakan-1/chakan-1-4.jpg",
-                  "/chakan-1/chakan-1-5.jpg",
-                  "/chakan-1/chakan-1-6.jpg",
-                  "/chakan-1/chakan-1-7.jpg",
-                  "/chakan-1/chakan-1-8.jpg",
-                  "/chakan-1/chakan-1-9.jpg",
-                  "/chakan-1/chakan-1-10.jpg",
-                  "/chakan-1/chakan-1-11.jpg",
+                  "chakan-4/chakan-4-1.png",
+                  "chakan-4/chakan-4-2.jpg",
+                  "chakan-4/chakan-4-3.jpg",
+                  "chakan-4/chakan-4-4.jpg",
+                  "chakan-4/chakan-4-5.png",
+                  "chakan-4/chakan-4-6.jpg",
+                  "chakan-4/chakan-4-7.png",
+                  "chakan-4/chakan-4-8.png",
                 ].map((img, index) => (
                   <SwiperSlide key={index}>
                     <img

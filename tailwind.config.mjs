@@ -21,6 +21,7 @@ export default {
         "min-1280": { min: "1280px" },
         "min-1366": { min: "1366px" },
         "min-1440": { min: "1440px" },
+        "min-1600": { min: "1440px" },
       },
       colors: {
         background: "var(--background)",

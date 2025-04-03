@@ -311,7 +311,7 @@ import "swiper/css/effect-fade";
 
 import { Autoplay, EffectCreative } from "swiper/modules";
 import Link from "next/link";
-const SlideBlog = () => {
+const SlideBlog = ({ blogs, bimg }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   // const tabs = ["Growth", "Culture", "Opportunities"];
 

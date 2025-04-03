@@ -214,7 +214,7 @@ const CareerAcc = () => {
   }, [openIndex]);
 
   return (
-    <div className="bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF] ">
       <div className="min-1366:ml-[calc((100vw-1250px)/2)] xl-1280:ml-[60px] xl-1024:ml-[50px]">
         <div className="flex justify-between items-stretch max-w-screen gap-[70px] xl:mr-0 mr-[max(5%,calc((100vw-1250px)/2))] xl:ml-0 ml-[max(5%,calc((100vw-1250px)/2))]">
           {/* Left - Text Content */}
@@ -268,7 +268,7 @@ const CareerAcc = () => {
             {accordionData[openIndex] && (
               <img
                 src={accordionData[openIndex]?.image}
-                className="w-full h-full object-cover transition-opacity duration-500"
+                className="w-auto h-[948px] object-cover transition-opacity duration-500"
                 alt="Accordion Image"
               />
             )}

@@ -12,12 +12,12 @@ const CareerSlideCard = ({ image, title, des }) => {
       </div>
       <div>
         <div className="flex flex-col gap-[10px]">
-          <h3 className="fsans-500 text-[18px] leading-[130%] text-white spotlightheaddd">
+          <h3 className="fsans-600 text-[18px] leading-[130%] text-white spotlightheaddd">
             {title || "A culture that builds your Future"}
           </h3>
         </div>
         <div>
-          <p className="fsans-500 text-[14px] text-[#a7a7a7]">
+          <p className="fsans-600 text-[14px] text-[#a7a7a7]">
             {des || "SUSAINA MICHELLE | SALES EXECUTIVE"}
           </p>
         </div>

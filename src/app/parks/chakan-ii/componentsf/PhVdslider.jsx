@@ -62,17 +62,15 @@ const PhVdslider = () => {
                 }}
               >
                 {[
-                  "/chakan-1/chakan-1-1.jpg",
-                  "/chakan-1/chakan-1-2.jpg",
-                  "/chakan-1/chakan-1-3.jpg",
-                  "/chakan-1/chakan-1-4.jpg",
-                  "/chakan-1/chakan-1-5.jpg",
-                  "/chakan-1/chakan-1-6.jpg",
-                  "/chakan-1/chakan-1-7.jpg",
-                  "/chakan-1/chakan-1-8.jpg",
-                  "/chakan-1/chakan-1-9.jpg",
-                  "/chakan-1/chakan-1-10.jpg",
-                  "/chakan-1/chakan-1-11.jpg",
+                  "chakan-2/chakan-2-1.jpg",
+                  "chakan-2/chakan-2-2.jpg",
+                  "chakan-2/chakan-2-3.jpg",
+                  "chakan-2/chakan-2-4.jpg",
+                  "chakan-2/chakan-2-5.jpg",
+                  "chakan-2/chakan-2-6.jpg",
+                  "chakan-2/chakan-2-7.jpg",
+                  "chakan-2/chakan-2-8.jpg",
+                  "chakan-2/chakan-2-9.jpg",
                 ].map((img, index) => (
                   <SwiperSlide key={index}>
                     <img
@@ -135,7 +133,15 @@ const PhVdslider = () => {
                 }}
               >
                 {[
-                  "blob:https://player.vimeo.com/4a8b7be9-5e8d-406c-835f-08f0e48fa454",
+                  "chakan-2/chakan-2-1.jpg",
+                  "chakan-2/chakan-2-2.jpg",
+                  "chakan-2/chakan-2-3.jpg",
+                  "chakan-2/chakan-2-4.jpg",
+                  "chakan-2/chakan-2-5.jpg",
+                  "chakan-2/chakan-2-6.jpg",
+                  "chakan-2/chakan-2-7.jpg",
+                  "chakan-2/chakan-2-8.jpg",
+                  "chakan-2/chakan-2-9.jpg",
                 ].map((img, index) => (
                   <SwiperSlide key={index}>
                     <img

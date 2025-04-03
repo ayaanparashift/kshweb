@@ -98,7 +98,7 @@ const Usp = () => {
           <LineHead heading={"TEN DIFFERENTIATORS of KSH INFRA Parks"} />
         </div>
         <div className="flex xl:flex-row flex-col-reverse md:p-0 px-5 pt-0 max-h-fit lg:gap-0 gap-5 relative">
-          <div className="flex items-end bottom-0 xl:bottom-[85px] justify-center mt-0 xl:absolute relative xl:left-0 w-full xl:w-[700px]">
+          <div className="flex items-end bottom-0 xl:bottom-[30px] justify-center mt-0 xl:absolute relative xl:left-0 w-full xl:w-[700px]">
             <video
               ref={videoRef}
               src="/uspicons/USP.mp4"

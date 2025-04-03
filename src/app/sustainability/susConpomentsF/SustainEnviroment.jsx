@@ -200,7 +200,17 @@ const SustainEnviroment = () => {
           </div>
         </div>
         <div className="flex xl:flex-row flex-col-reverse md:p-0 px-5 pt-0 max-h-fit h-fit lg:gap-0 gap-5 relative">
-          <div className="lg:flex items-end lg:top-[10%] xl-1366::top-[5%] justify-center mt-0 xl:absolute relative lg:left-[-100p] xl-1366:left-[-150px] w-full lg:w-[700px] xl-1366:w-[875px] hidden ">
+          {/* <div className="lg:flex items-end lg:top-[10%] xl-1366::top-[5%] justify-center mt-0 xl:absolute relative lg:left-[-100p] xl-1366:left-[-150px] w-full lg:w-[700px] xl-1366:w-[875px] hidden ">
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ ease: [0.7, 0, 0.4, 1], duration: 1.4 }}
+              viewport={{ once: true, amount: 0.3 }}
+              src="Sustainability/SustainEnvironmental.png"
+              alt="Sus"
+            />
+          </div> */}
+          <div className="lg:flex items-end lg:top-[10%] xl-1366:top-[5%] justify-center mt-0 xl:absolute relative lg:left-[-100px] xl-1366:left-[-150px] w-full lg:w-[700px] xl-1366:w-[875px] hidden">
             <motion.img
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

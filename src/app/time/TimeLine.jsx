@@ -12,147 +12,147 @@ const timelineData = [
     year: 1969,
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "190px",
   },
   {
     id: 2,
     year: 1979,
     content: "Consectetur adipiscing elit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "50px",
   },
   {
     id: 4,
     year: 1981,
     content: "Sed do eiusmod tempor incididunt.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "0px",
   },
   {
     id: 5,
     year: 1989,
     content: "Ut labore et dolore magna aliqua.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "150px",
   },
   {
     id: 6,
     year: 1991,
     content: "Enim ad minim veniam.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "30px",
   },
   {
     id: 7,
     year: 1998,
     content: "Quis nostrud exercitation ullamco.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "50px",
   },
   {
     id: 8,
     year: 1999,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 9,
     year: 2002,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "150px",
   },
   {
     id: 10,
     year: 2003,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "-20px",
   },
   {
     id: 11,
     year: 2006,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 12,
     year: 2008,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "160px",
   },
   {
     id: 13,
     year: 2011,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 14,
     year: 2012,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "-40px",
   },
   {
     id: 15,
     year: 2013,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 16,
     year: 2015,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "190px",
   },
   {
     id: 17,
     year: 2016,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "70px",
   },
   {
     id: 18,
     year: 2017,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "-30px",
   },
   {
     id: 19,
     year: 2018,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 20,
     year: 2019,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 21,
     year: 2021,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "90px",
   },
   {
     id: 22,
     year: 2022,
     content: "Duis aute irure dolor in reprehenderit.",
-    image: "/timeSpot.png",
+    image: "/time/timespot.png",
     marginTop: "0px",
   },
 ];
@@ -175,8 +175,8 @@ const Timeline = () => {
     if (dotsRef.current[id]) {
       const rect = dotsRef.current[id].getBoundingClientRect();
       setPosition({
-        top: rect.top + window.scrollY + 70,
-        left: rect.left + rect.width / 2,
+        top: rect.top + window.scrollY + rect.height + 10, // Position below the dot with a small gap
+        left: rect.left + rect.width / 2, // Center it horizontally with the dot
       });
     }
   };
@@ -241,7 +241,8 @@ const Timeline = () => {
             className="absolute flex-col flex items-center space-x-6 transition-opacity duration-300"
             style={{
               position: "absolute",
-              top: `${position.top - 60}px`,
+              // top: `${position.top - 60}px`,
+              top: `${position.top} `,
               left: `${position.left}px`,
               transform: "translateX(-50%)",
             }}
@@ -263,8 +264,8 @@ const Timeline = () => {
                 alt="event"
                 className="w-[165px] h-[138px]  object-cover"
               />
-              <div className="bg-white w-full pt-3 p-2 space-y-2 ">
-                <h3 className="fpt-500 text-4xl text-[#092241] leading-9 font-bold">
+              <div className="bg-white w-full py-[17px] px-[16px] space-y-2 ">
+                <h3 className="fpt-700 text-4xl text-[#092241] leading-9 font-bold">
                   {timelineData.find((item) => item.id === selectedYear)?.year}
                 </h3>
                 <p className="pt-2 fsans-400 text-sm text-[#474747]">
@@ -279,7 +280,7 @@ const Timeline = () => {
         )}
       </div>
       <div className="flex gap-[14px] items-center justify-center">
-        <button className="arrowleft ">
+        <button className="arrowleft">
           <img
             className="h-[41px] w-[41px]"
             src="/time/lw.svg"

@@ -88,7 +88,7 @@ const BentoHeaderF = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.9 }}
         >
-          <motion.p className="gradinetText text-[16px] lg:text-[20px] fsans-400">
+          <motion.p className="gradinetText text-[16px] lg:text-[20px] fsans-600">
             Stay updated with the latest trends, developments, and milestones at
             KSH INFRA. From industry insights to project updates, explore how
             we’re shaping the future of industrial and logistics infrastructure.

@@ -49,7 +49,7 @@ const StatsSection = () => {
   const numberOfClientsData = useAnimatedNumber(numberOfClients);
 
   return (
-    <div className="grid md:grid-cols-5 grid-cols-2 relative z-0 xl:pb-[50px] pb-0">
+    <div className="grid md:grid-cols-5 grid-cols-2 relative z-0 xl:pb-[0px] pb-0">
       <motion.div
         ref={parksTotalData.ref}
         className={`flex countersec flex-col items-left text-left px-[30px] xl:px-[42px] group hover:bg-[#E30613] hover:text-white gap-[12px] 2xl:py-[75px] xl:py-[66px] lg:py-[56px] py-[30px] border-t border-r border-gray-300`}

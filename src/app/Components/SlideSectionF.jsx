@@ -77,7 +77,7 @@ const SlideSectionF = () => {
 
           <div className="px-[5%] md:px-0 md:flex items-center justify-between xl-1024:w-[90%] xl-768:pr-[40px] lg:w-[600px] pt-[70px] border-b-[1px] pb-3 border-[#D7D7D7] border-opacity-50 xl-1920:w-[80%]">
             <h1 className="text-xl pb-4 md:pb-0 text-white font-semibold">
-              Careers at KSH
+              Careers at KSH INFRA
             </h1>
             {/* Tabs */}
             <div className="tabs flex gap-4">

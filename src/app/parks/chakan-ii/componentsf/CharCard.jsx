@@ -2,7 +2,7 @@ import React from "react";
 
 const CharCard = ({ charnum, charcont, charTitle }) => {
   return (
-    <div className="w-[350px] select-none gap-[25px] flex flex-col items-start justify-between h-[400px] bg-white border-[1px] border-[#6C8DAB] border-opacity-[0.5] p-[40px]">
+    <div className="w-[350px] select-none gap-[25px] flex flex-col items-start justify-between h-[450px] bg-white border-[1px] border-[#6C8DAB] border-opacity-[0.5] p-[40px]">
       <div className="fsans-600 w-full flex items-start text-[72px] leading-[111%] text-[#253B57]">
         {charnum}
       </div>

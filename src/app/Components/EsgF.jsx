@@ -387,6 +387,7 @@ const EsgF = () => {
             <video
               ref={videoRef}
               src="/homepage/esgfinal.mp4"
+              loop
               autoPlay
               muted
             ></video>

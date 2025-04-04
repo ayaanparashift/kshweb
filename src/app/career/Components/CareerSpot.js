@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 export default function CareerSpot() {
   return (
-    <div className="relative bg-[#092241] max-h-screen lg:h-screen z-0 overflow-hidden">
+    <div className="relative bg-[#092241] md:h-[110vh] min-1600:h-[100vh]  z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[125px] md:pt-[140px] xl-1920:pt-44">
         <motion.p

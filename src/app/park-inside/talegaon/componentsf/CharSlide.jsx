@@ -64,7 +64,6 @@ const CharSlide = () => {
               modules={[Navigation]}
               navigation={{ nextEl: "#chr", prevEl: "#chl" }}
               speed={500}
-              loop={true}
               grabCursor={true}
               touchMoveStopPropagation={false}
               allowTouchMove={true}

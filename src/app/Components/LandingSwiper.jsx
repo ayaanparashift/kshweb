@@ -154,12 +154,12 @@ const LandingSwiper = () => {
 
   return (
     <div className="h-screen">
-      <button
+      {/* <button
         className="text-[#092241] px-[10px] py-[25px] absolute top-[50%] z-[1000] 
          bg-gradient-to-l from-white from-[39%] to-[#A4AFCA] -rotate-180 right-0 [writing-mode:tb-rl] fsans-600 text-[16px]"
       >
         Enquire Now
-      </button>
+      </button> */}
       <motion.div
         className="relative overflow-hidden max-w-screen"
         initial={{ maxWidth: 0 }}

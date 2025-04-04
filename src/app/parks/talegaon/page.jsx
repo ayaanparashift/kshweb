@@ -13,7 +13,7 @@ const page = () => {
       <TabMenu />
       <ParkOverview />
       <ParkInfo />
-      <CharSlide />
+      {/* <CharSlide /> */}
       <PhVdslider />
       <LastSw />
     </div>

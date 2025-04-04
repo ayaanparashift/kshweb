@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactSpot = () => {
   return (
-    <div className="relative bg-[#092241] h-[430px] md:h-[100vh] min-1600:h-[90vh] overflow-hidden z-0">
+    <div className="relative bg-[#092241] h-[430px] md:h-[110vh] min-1600:h-[100vh] overflow-hidden z-0">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p

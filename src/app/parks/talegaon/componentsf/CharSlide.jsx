@@ -28,7 +28,7 @@ const CharSlide = () => {
         "Situated between the KHED SEZ and the Talegaon industrial belt, Chakan benefits from a strategically advantageous location that supports extensive industrial activity and development.",
     },
     {
-      charTitle: "Robust Infrastructure Development",
+      charTitle: "Robust Infrastructure",
       charnum: "04",
       charcont:
         "Chakan is experiencing rapid infrastructure growth, enhancing its attractiveness as an industrial location. This development supports a wide range of industries and contributes to the area’s overall economic expansion.",
@@ -96,7 +96,6 @@ const CharSlide = () => {
               modules={[Navigation]}
               navigation={{ nextEl: "#chr", prevEl: "#chl" }}
               speed={500}
-              loop={true}
               grabCursor={true}
               touchMoveStopPropagation={false}
               allowTouchMove={true}

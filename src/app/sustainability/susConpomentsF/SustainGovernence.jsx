@@ -21,7 +21,7 @@ const SustainGovernence = () => {
       title: "Value Creation",
       content:
         "We create value for society and our stakeholders in many ways, including job opportunities, tax payment support, participation in the supply chain, and investment in local communities.",
-      image: "Sustainability/SustainabilityValueCreation.png",
+      image: "Sustainability/govb.png",
     },
   ];
 
@@ -107,7 +107,7 @@ const SustainGovernence = () => {
           <div className="relative overflow-hidden hidden lg:block right">
             <img
               src={accordionData[openIndex]?.image}
-              className="xl-1024:w-[475px] "
+              className="xl-1024:w-[475px] max-w-[700px] max-h-[509px] h-[509px]"
               alt="Accordion Image"
             />
             <motion.div

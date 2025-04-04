@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectFade } from "swiper/modules";
-import { motion } from "framer-motion"; // Import motion
+import { AnimatePresence, motion } from "framer-motion"; // Import motion
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -16,7 +16,7 @@ const AboutCap = () => {
       content:
         "The KSH Container Depot spans 17 acres in Talegaon, a vital convergence point of NH4 and the Mumbai-Pune Expressway.",
       images: {
-        top: ["/AboutPage/aboutSlide/kshINTL.png"],
+        top: ["/AboutPage/aboutSlide/dparks.png"],
       },
       links: "www.kshdistriparks.com",
     },
@@ -26,7 +26,7 @@ const AboutCap = () => {
       content:
         "KSH has over half a million square feet of warehousing across key Indian markets. The facilities are plug-and-play, effectively adaptive to all our clients' needs.",
       images: {
-        top: ["/AboutPage/aboutSlide/kill.png"],
+        top: ["/AboutPage/aboutSlide/il.png"],
       },
       links: "www.kshlogistics.com",
     },
@@ -37,7 +37,7 @@ const AboutCap = () => {
         "KSH International is a leading manufacturer of bare and insulated Rectangular & round winding wires and transposed cables in India.",
       images: {
         // top: ["./AboutPage/aboutSlide/KshINTL.png"],
-        top: ["/AboutPage/aboutSlide/kill.png"],
+        top: ["/AboutPage/aboutSlide/intl.png"],
       },
       links: "www.kshinternational.com",
     },
@@ -78,7 +78,7 @@ const AboutCap = () => {
     <div className="bg-[#092241] ">
       <div className="bg-[#092241] md:h-auto h-fit flex items-end justify-end ">
         {/* <div className="border-white w-full  maxTab xl-1024:ml-[44px] xl-1280:ml-[59px] xl-1366:ml-[60px] xl-1440:ml-[90px] xl-1536:ml-[137px] xl-1600:ml-[175px] xl-1920:ml-[17.5%]  lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden"> */}
-        <div className="border-white w-full ml-[max(5%,calc((100vw-1250px)/2))] lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden">
+        <div className="border-white w-full ml-[max(5%,calc((100vw-1250px)/2))] lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden relative z-[1]">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -179,7 +179,7 @@ const AboutCap = () => {
             </div>
           </motion.div>
           {/* Right Container with Swipers */}
-          <div className="rightCon flex-1 lg:max-w-[638px] bg-red-500">
+          <div className="rightCon relative z-[100000000] flex-1 lg:max-w-[638px]">
             {/* Top Image Swiper */}
             <div className="relative overflow-hidden">
               <Swiper
@@ -191,13 +191,22 @@ const AboutCap = () => {
               >
                 {tabs[activeTab].images.top.map((img, idx) => (
                   <SwiperSlide key={idx}>
-                    <div>
-                      <img
-                        src={img}
-                        alt=""
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
+                    <AnimatePresence mode="wait">
+                      <motion.div
+                        key={Date.now()}
+                        initial={{ opacity: 0 }}
+                        className="relative z-[100000000]"
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.5, ease: [0.7, 0, 0.4, 1] }}
+                      >
+                        <img
+                          src={img}
+                          alt=""
+                          className="h-full w-full object-cover"
+                        />
+                      </motion.div>
+                    </AnimatePresence>
                   </SwiperSlide>
                 ))}
               </Swiper>

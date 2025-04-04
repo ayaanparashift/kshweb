@@ -79,8 +79,8 @@ const ParkinSpot = ({}) => {
               <div className="relative h-fit overflow-hidden flex lg:justify-center justify-end w-full">
                 {/*  */}
                 <img
-                  src="/ParkPage/container.png"
-                  className="object-cover lg:w-full w-[95%] md:inline-block hidden"
+                  src="/ParkPage/chakan-3/ch3spot.png"
+                  className="object-cover w-full md:inline-block hidden"
                   alt="some"
                 />
 
@@ -92,51 +92,12 @@ const ParkinSpot = ({}) => {
                   viewport={{ once: true, amount: 0 }}
                 />
               </div>
-              <motion.img
-                src="/ParkPage/container2.png"
-                className="absolute top-[20%] left-0 lg:left-[-5%] z-[10] w-[40vw] md:w-[180px]"
-                alt="floating"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  duration: 1.2,
-                  ease: [0.7, 0, 0.4, 1],
-                  delay: 1,
-                }}
-                viewport={{ once: true, amount: 0 }}
-              />
-              <motion.img
-                src="/ParkPage/container1.png"
-                className="absolute top-auto left-[150px] bottom-[-5%] z-[10] w-[50vw] md:w-[274px]"
-                alt="floating"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  duration: 1.2,
-                  ease: [0.7, 0, 0.4, 1],
-                  delay: 1,
-                }}
-                viewport={{ once: true, amount: 0 }}
-              />
-              <motion.img
-                src="/ParkPage/container3.png"
-                className="absolute top-auto left-auto right-[3%] bottom-[-5%] z-[10] w-[45vw] md:w-[228px]"
-                alt="floating"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{
-                  duration: 1.2,
-                  ease: [0.7, 0, 0.4, 1],
-                  delay: 1,
-                }}
-                viewport={{ once: true, amount: 0 }}
-              />
             </div>
 
             {/* Mobile Image */}
             <div>
               <img
-                src="/ParkPage/container.png"
+                src="/ParkPage/chakan-3/ch3spot.png"
                 className="object-cover md:hidden inline-block"
                 alt="some"
               />

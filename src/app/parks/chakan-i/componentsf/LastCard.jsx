@@ -1,11 +1,18 @@
-export default function PropertyCard({ pTitle, pLocal, pArea, pBuildings }) {
+export default function PropertyCard({
+  pTitle,
+  pLocal,
+  pArea,
+  pBuildings,
+  park,
+  pImg,
+}) {
   return (
     <div className="w-[347px] max-w-[100%] h-[425px] overflow-hidden border-[1px] border-[#DDDDDD] bg-white select-none">
       {/* Image Section */}
       <div>
         <img
-          src="/ParkPage/lastcar1.webp" // Ensure the image is in the public folder or use an external URL
-          alt="KSH Chakan Park IV"
+          src={pImg} // Ensure the image is in the public folder or use an external URL
+          alt="KSH Maharashtra Park"
           className="w-[347px] max-w-[100%] h-[193px] object-cover "
         />
       </div>

@@ -82,9 +82,13 @@ const CharSlide = () => {
               }}
             >
               {/* Slides */}
-              {[...Array(10)].map((_, index) => (
+              {CardContent.map((index) => (
                 <SwiperSlide key={index}>
-                  <CharCard />
+                  <CharCard
+                    charTitle={index.charTitle}
+                    charnum={index.charnum}
+                    charcont={index.charcont}
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>

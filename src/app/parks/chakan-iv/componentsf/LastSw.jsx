@@ -11,17 +11,19 @@ import Link from "next/link";
 const LastSw = () => {
   const CardData = [
     {
-      parkTitle: "KSH Chakan IV",
+      parkTitle: "KSH Chakan III",
       pLocal: "Pune | Maharashtra",
-      totalLand: "0.66M sf",
-      buildings: "02 Buildings",
-      pLink: "/parks/chakan-iv",
+      totalLand: "1.5M sf",
+      buildings: "08 Buildings",
+      pImg: "/ParkPage/chakan-3/ch3spot.png",
+      pLink: "/parks/chakan-iii",
     },
     {
       parkTitle: "KSH Chakan II",
       pLocal: "Pune | Maharashtra",
       totalLand: "1.2M sf",
       buildings: "05 Buildings",
+      pImg: "/ParkPage/chakan-2/ch2spot.png",
       pLink: "/parks/chakan-ii",
     },
     {
@@ -29,7 +31,16 @@ const LastSw = () => {
       pLocal: "Pune | Maharashtra",
       totalLand: "0.85M sf",
       buildings: "04 Buildings",
+      pImg: "/ParkPage/chakan-1/ch1spot.webp",
       pLink: "/parks/chakan-i",
+    },
+    {
+      parkTitle: "KSH Talegaon",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "0.14M sf",
+      buildings: "01 Building",
+      pImg: "/ParkPage/talegaon/talspot.png",
+      pLink: "/parks/talegaon",
     },
   ];
   return (
@@ -132,6 +143,7 @@ const LastSw = () => {
                   pBuildings={index.buildings}
                   pLocal={index.pLocal}
                   pTitle={index.parkTitle}
+                  pImg={index.pImg}
                 />
               </Link>
             </SwiperSlide>

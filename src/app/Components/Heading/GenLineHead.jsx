@@ -76,10 +76,10 @@ const GenLineHead = ({ heading, acbtn, setAcBtn }) => {
             <button
               onClick={() => setAcBtn(btntitle.title)}
               key={btntitle.title + " " + String(index)}
-              className={`px-[12px] fsans-600 py-[10px] flex-1 flex items-center justify-center rounded-[10px] border-[#092241] border-opacity-30 text-opacity-50 border ${
+              className={`px-[12px] fsans-600 py-[10px] flex-1 flex items-center justify-center rounded-[10px] border-[#092241] border-opacity-30 border ${
                 acbtn === btntitle.title
-                  ? "bg-[#E30613] border-[#E30613] text-white text-opacity-100"
-                  : "text-[#092241]"
+                  ? "bg-[#E30613] border-[#E30613] text-[#fff] text-opacity-100"
+                  : "text-[#092241] text-opacity-50"
               }`}
             >
               {btntitle.title}

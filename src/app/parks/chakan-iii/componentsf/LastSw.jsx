@@ -13,8 +13,9 @@ const LastSw = () => {
     {
       parkTitle: "KSH Chakan IV",
       pLocal: "Pune | Maharashtra",
-      totalLand: "0.66M sf",
+      totalLand: "0.36M sf",
       buildings: "02 Buildings",
+      pImg: "/ParkPage/chakan-4/ch4spot.png",
       pLink: "/parks/chakan-iv",
     },
     {
@@ -22,6 +23,7 @@ const LastSw = () => {
       pLocal: "Pune | Maharashtra",
       totalLand: "1.2M sf",
       buildings: "05 Buildings",
+      pImg: "/ParkPage/chakan-2/ch2spot.png",
       pLink: "/parks/chakan-ii",
     },
     {
@@ -29,7 +31,16 @@ const LastSw = () => {
       pLocal: "Pune | Maharashtra",
       totalLand: "0.85M sf",
       buildings: "04 Buildings",
+      pImg: "/ParkPage/chakan-1/ch1spot.webp",
       pLink: "/parks/chakan-i",
+    },
+    {
+      parkTitle: "KSH Talegaon",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "0.14M sf",
+      buildings: "01 Building",
+      pImg: "/ParkPage/talegaon/talspot.png",
+      pLink: "/parks/talegaon",
     },
   ];
   return (
@@ -132,6 +143,7 @@ const LastSw = () => {
                   pBuildings={index.buildings}
                   pLocal={index.pLocal}
                   pTitle={index.parkTitle}
+                  pImg={index.pImg}
                 />
               </Link>
             </SwiperSlide>

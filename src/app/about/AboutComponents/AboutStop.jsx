@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 const AboutStop = () => {
   return (
-    <div className="relative bg-[#092241] h-[110vh] xl-1366:h-[100vh] xl-1024:h-[110vh] min-1600:h-[95vh] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] h-[110vh] xl-1366:h-[100vh] xl-1024:h-[110vh] min-1600:h-[100vh] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 xl:pt-[140px] pt-[120px]">
         <motion.p

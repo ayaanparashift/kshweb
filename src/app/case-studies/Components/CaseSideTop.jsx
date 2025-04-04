@@ -1057,7 +1057,7 @@ const CaseSideTop = () => {
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.5, ease: [0.7, 0, 0.4, 1] }}
                 >
-                  <h3 className="spotlightheaddd fsans-600 text-white text-[36px] leading-[130%]">
+                  <h3 className="spotlightheaddd fsans-700 text-white text-[36px] leading-[130%]">
                     {activeSlide.title}
                   </h3>
                   <p className="fsans-600 text-[22px] leading-[130%] text-[#CECECE] uppercase">

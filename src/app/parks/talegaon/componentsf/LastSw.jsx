@@ -7,7 +7,42 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import LastCard from "./LastCard";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const LastSw = () => {
+  const CardData = [
+    {
+      parkTitle: "KSH Chakan IV",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "0.36M sf",
+      buildings: "02 Buildings",
+      pImg: "/ParkPage/chakan-4/ch4spot.png",
+      pLink: "/parks/chakan-iv",
+    },
+    {
+      parkTitle: "KSH Chakan III",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "1.5M sf",
+      buildings: "08 Buildings",
+      pImg: "/ParkPage/chakan-3/ch3spot.png",
+      pLink: "/parks/chakan-iii",
+    },
+    {
+      parkTitle: "KSH Chakan II",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "1.2M sf",
+      buildings: "05 Buildings",
+      pImg: "/ParkPage/chakan-2/ch2spot.png",
+      pLink: "/parks/chakan-ii",
+    },
+    {
+      parkTitle: "KSH Chakan I",
+      pLocal: "Pune | Maharashtra",
+      totalLand: "0.85M sf",
+      buildings: "04 Buildings",
+      pImg: "/ParkPage/chakan-1/ch1spot.webp",
+      pLink: "/parks/chakan-i",
+    },
+  ];
   return (
     <div className="bg-white pt-[72px] pb-[95px] flex gap-[49px] flex-col w-full overflow-hidden">
       <div className="flex md:flex-row flex-col items-start md:gap-0 gap-[20px] fix12 justify-between">
@@ -100,7 +135,20 @@ const LastSw = () => {
             },
           }}
         >
-          <SwiperSlide>
+          {CardData.map((index) => (
+            <SwiperSlide key={index.buildings}>
+              <Link href={index.pLink}>
+                <LastCard
+                  pArea={index.totalLand}
+                  pBuildings={index.buildings}
+                  pLocal={index.pLocal}
+                  pTitle={index.parkTitle}
+                  pImg={index.pImg}
+                />
+              </Link>
+            </SwiperSlide>
+          ))}
+          {/* <SwiperSlide>
             <LastCard />
           </SwiperSlide>
           <SwiperSlide>
@@ -117,10 +165,7 @@ const LastSw = () => {
           </SwiperSlide>
           <SwiperSlide>
             <LastCard />
-          </SwiperSlide>
-          <SwiperSlide>
-            <LastCard />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </motion.div>
     </div>

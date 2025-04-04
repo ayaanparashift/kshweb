@@ -235,7 +235,7 @@ import AboutCap from "./AboutComponents/AboutCap";
 import AboutGrowth from "./AboutComponents/AboutGrowth";
 import AboutStop from "./AboutComponents/AboutStop";
 import Head from "next/head";
-import Timeline from "../time/Timeline";
+import Timeline from "../time/TimeLine";
 
 export const metadata = {
   title:

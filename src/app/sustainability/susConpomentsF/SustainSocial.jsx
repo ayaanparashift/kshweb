@@ -78,7 +78,7 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
                 <div className="imgCon xl-768:w-[300px] md:w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/social1.png"
+                    src="/Sustainability/simgs/s13.png"
                     className="w-full"
                     alt="Social Impact"
                   />
@@ -113,7 +113,7 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
                 <div className="imgCon xl-768:w-[300px] lg:w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/social1.png"
+                    src="/Sustainability/simgs/s11.png"
                     className="w-full"
                     alt="Social Impact"
                   />
@@ -142,7 +142,7 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
                 <div className="imgCon xl-768:w-[300px] w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/social1.png"
+                    src="/Sustainability/simgs/s12.png"
                     className="w-full"
                     alt="Social Impact"
                   />

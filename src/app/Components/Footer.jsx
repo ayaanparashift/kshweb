@@ -244,6 +244,7 @@ const Footer = () => {
               <Link href="/investor">Investor</Link>
               <Link href="/capabilities">Capabilities</Link>
               <Link href="/sustainability">Sustainability</Link>
+              <Link href="/blogs">Blogs</Link>
             </div>
           </div>
         </div>

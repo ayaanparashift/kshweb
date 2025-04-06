@@ -45,14 +45,18 @@ const BCard = ({ blog, activeTabId, image }) => {
       <div className="flex flex-col min-h-full justify-between border-[#DDDDDD] border-t border-b border-r w-[310px] max-w-full pl-[30px] pr-[20px] py-[30px]">
         <div className="flex flex-col gap-[16px]">
           {/* Category Tag */}
-          <p className="max-w-fit fsans-600 text-[16px] leading-[111%] bg-[#F7E327] py-[8px] px-[12px]">
-            {categoryToShow}
-          </p>
+          <p
+            className="max-w-fit fsans-600 text-[16px] leading-[111%] bg-[#F7E327] py-[8px] px-[12px]"
+            dangerouslySetInnerHTML={{ __html: categoryToShow }}
+          />
 
           {/* Blog Title */}
-          <h3 className="spotlightheaddd fsans-600 text-[20px] text-[#565656]">
-            {blog.title?.rendered}
-          </h3>
+          <h3
+            className="spotlightheaddd fsans-600 text-[20px] text-[#565656]"
+            dangerouslySetInnerHTML={{
+              __html: blog.title?.rendered || "Untitled Blog",
+            }}
+          />
         </div>
 
         {/* Learn More Link */}

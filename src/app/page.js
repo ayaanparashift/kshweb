@@ -8,6 +8,7 @@ import EsgF from "./Components/EsgF";
 import SlideSectionF from "./Components/SlideSectionF";
 import BentoSlider from "./Components/BentoSlider";
 import LandingSwiper from "./Components/LandingSwiper";
+// import Navlist from "./Components/Navlist";
 export const metadata = {
   title: "KSH Infra - Inspiring Green Development",
   desc: "Leading Grade A industrial and warehouse park developer in India. KSH INFRA has till date delivered 2.2 million square feet of BTS and ready-to-use, green infrastructure solutions across four large-scale industrial parks in India.",
@@ -30,6 +31,7 @@ export default function Home() {
       <EsgF />
       <SlideSectionF />
       <BentoSlider />
+      {/* <Navlist /> */}
     </>
   );
 }

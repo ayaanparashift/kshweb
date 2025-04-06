@@ -119,7 +119,7 @@ const CapabilitiesF = () => {
       {/* <div className="bg-[#092241] md:h-auto h-fit flex items-end justify-end"> */}
       <div className="bg-[#092241] md:h-auto h-fit ">
         {/* <div className="border-white w-full  maxTab xl-1024:ml-[44px] xl-1280:ml-[59px] xl-1366:ml-[60px] xl-1440:ml-[90px] xl-1536:ml-[137px] xl-1600:ml-[175px] xl-1920:ml-[17.5%]  lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden"> */}
-        <div className="ml-[max(5%,calc((100vw-1250px)/2))] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden">
+        <div className="ml-[max(5%,calc((100vw-1250px)/2))] mr-[max(5%,calc((100vw-1250px)/2))] sm:mr-0 lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden">
           <div className="leftCon flex-1 py-10 ">
             <div className="pt-[40px]">
               <LineHead
@@ -156,7 +156,7 @@ const CapabilitiesF = () => {
                 transition={{ duration: 0.6, ease: [0.7, 0, 0.4, 1] }}
                 className="w-full mr-10 contentArea"
               >
-                <div className="flex flex-col  xl:pt-10 gap-7 xl-1280:h-[350px]  xl-1366:h-[300px] xl-768:w-full w-[80%] contentArea xl-1024:h-[300px] h-[250px] xl-768:h-auto xl-768:gap-10 xl-1440:h-[330px] 2xl:h-[390px] ">
+                <div className="flex flex-col  xl:pt-10 gap-7 xl-1280:h-[350px]  xl-1366:h-[300px] xl-768:w-full w-[90%] contentArea xl-1024:h-[300px] h-[450px] xl-768:h-auto xl-768:gap-10 xl-1440:h-[330px] 2xl:h-[390px] ">
                   <h1 className="tabHeading text-4xl md:text-[40px] md:leading-[66px] lg:text-[60px] fpt-500 text-white font-medium border-b-[8px] border-[#F7E327] ]">
                     {tabs[activeTab].heading}
                     {/* dangerouslySetInnerHTML= {{ __html: tabs[activeTab].heading }} */}

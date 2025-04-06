@@ -26,15 +26,15 @@
 //             id="nothumb"
 //             className="flex w-full gap-[70px] lg:h-[530px] pt-[55px]"
 //           >
-//             {/* Video Container - Fixed Width */}
+//             {/* image Container - Fixed Width */}
 //             <div className="w-[770px] h-full bg-[url(/Career/SlideImgs/slidethbg.png)] bg-cover bg-no-repeat bg-center overflow-hidden flex justify-center items-center px-[100px] py-[70px] shadow-[4px_4px_34px] shadow-[rgba(0,0,0,0.15)]">
-//               <video
+//               <image
 //                 className="w-auto h-auto max-w-full max-h-full"
 //                 src="/Career/SlideImgs/slidevid1.webm"
 //                 autoPlay
 //                 loop
 //                 muted
-//               ></video>
+//               ></image>
 //             </div>
 
 //             {/* Text Content - Fills Remaining Space */}
@@ -104,21 +104,21 @@
 // // Dummy slides data – you can modify or extend this as needed.
 // const slides = [
 //   {
-//     video: "/Career/SlideImgs/slidevid1.webm",
+//     image: "/Career/SlideImgs/slidevid1.webm",
 //     title: "A culture that builds your future",
 //     subtitle: "SUSAINA MICHELLE | SALES EXECUTIVE",
 //     description:
 //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 //   },
 //   {
-//     video: "/Career/SlideImgs/slidevid1.webm",
+//     image: "/Career/SlideImgs/slidevid1.webm",
 //     title: "Innovation at its best",
 //     subtitle: "JOHN DOE | DEVELOPER",
 //     description:
 //       "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 //   },
 //   {
-//     video: "/Career/SlideImgs/slidevid1.webm",
+//     image: "/Career/SlideImgs/slidevid1.webm",
 //     title: "Leading the industry",
 //     subtitle: "JANE SMITH | MANAGER",
 //     description:
@@ -162,15 +162,15 @@
 //             {slides.map((slide, index) => (
 //               <SwiperSlide key={index}>
 //                 <div className="flex w-full gap-[70px] lg:h-[530px] pt-[55px]">
-//                   {/* Video Container */}
+//                   {/* image Container */}
 //                   <div className="w-[770px] h-full bg-[url(/Career/SlideImgs/slidethbg.png)] bg-cover bg-no-repeat bg-center overflow-hidden flex justify-center items-center px-[100px] py-[70px] shadow-[4px_4px_34px_rgba(0,0,0,0.15)]">
-//                     <video
+//                     <image
 //                       className="w-auto h-auto max-w-full max-h-full"
-//                       src={slide.video}
+//                       src={slide.image}
 //                       autoPlay
 //                       loop
 //                       muted
-//                     ></video>
+//                     ></image>
 //                   </div>
 
 //                   {/* Text Content */}
@@ -271,138 +271,130 @@ import CareerSlideCard from "./CareerSlideCard";
 // Dummy slides data – you can modify or extend this as needed.
 const slides = [
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s1s.png",
+    image: "/Career/SlideImgs/sbig/s1.png",
     title: "A culture that builds your future",
-    subtitle: "SUSAINA MICHELLE | SALES EXECUTIVE",
+    subtitle: "Akhil Ilkar | SALES EXECUTIVE",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "At KSH, we create industrial and logistics parks that are sustainable, make working effortless and help enhance processes. Over the past nine years, I have seen that this approach extends to team members as well, they are all fairly compensated and more importantly, given the opportunity to grow and learn in their areas of interest. It is easy to see how well-knit this team is and this is one major reason I enjoy working here.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s2s.png",
+    image: "/Career/SlideImgs/sbig/s2.png",
     title: "Innovation at its best",
-    subtitle: "JOHN DOE | DEVELOPER",
+    subtitle: "Prajakta Butala | DEVELOPER",
     description:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Working at KSH Infra has helped me to grow as a person and as a professional. I have gained valuable experience and insights into the working of a successful organization. I am highly impressed with the work culture at KSH Infra and believe that it is the perfect place for me to continue my career.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s3s.png",
+    image: "/Career/SlideImgs/sbig/s3.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Mahesh Sawant | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "I can say without a doubt that it is one of the best places to work at. The company has a great work culture and the management is supportive. I have never felt like I am working for a company, but rather I feel like I am part of a family. The work is challenging and there is always something new to learn, which keeps me motivated.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s4s.png",
+    image: "/Career/SlideImgs/sbig/s4.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Vishram Khatavkar | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "I’ve been a part of KSH since 2017 and currently work as a Deputy Manager in the Electrical Department at KSH. Not only have I been able to execute my skills, I have also been able to learn more about my field through the various industrial and logistics parks as well as through client interactions. I have been lucky enough to find my designs used in various projects for clients and that keeps driving me.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s5s.png",
+    image: "/Career/SlideImgs/sbig/s5.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Suraj Shah | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "I come to work every day knowing that I will give all my energy to my job and own my responsibilities. The reason for that is the friendly and conducive work environment at KSH. I have access to some of the best mentors around and real opportunities to gain and enhance my knowledge and skills. I’ve never felt the need to hold an idea back because I know it will be heard and appreciated.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s6s.png",
+    image: "/Career/SlideImgs/sbig/s6.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Sumit Yadav| MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "I moved from the residential construction space into the industrial space with KSH, the work culture, team adherence and support helped me get through my personal troubles more than once. This alone is enough to inspire me, but there is more, the value given to employees is something I have experienced at this level. I encourage people who are willing to challenge their attitudes and push the boundaries to join this amazing team.  ",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s1s.png",
+    image: "/Career/SlideImgs/sbig/s1.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Dilip Kadam | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "KSH has grown immensely in the past few years, this is due to the undying commitment and vision of both our management and our excellent workforce. We hire people for more than their skills. Their attitudes, their creativity and their willingness to push boundaries are criteria we hold in the highest regard. Nothing that has happened at KSH was done by one person, it has truly been a team effort.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s2s.png",
+    image: "/Career/SlideImgs/sbig/s2.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Dinesh Hebbar | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The strength of a team can never be undermined. During the last eight years at KSH, I have been able to implement knowledge garnered over the past 35 years in the various multimodal industrial and logistics parks. I’ve been able to express my concerns and ideas. Not only were they heard, but they were also received with gratitude. Coming back to teams, there have been moments where we pulled together to overcome seemingly humongous challenges with ease.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s3s.png",
+    image: "/Career/SlideImgs/sbig/s3.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Mayur Bhiungade | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The past nine years have been nothing short of glorious. I have learned and grown as a professional and a person. I enjoy every moment and find the team to be a sheer joy to work with. People here know they are valued; they bring enthusiasm and knowledge to the table every day. We have had a lot of opportunities to gel at sporting events, yoga sessions, communication seminars and other workshops that have helped me hone my skills. Both my team and I are filled with gratitude as we continue our journey with KSH.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s4s.png",
+    image: "/Career/SlideImgs/sbig/s4.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Rohan Patil | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "It has only been three months since I joined this team, I was immediately welcomed with warmth and found communication easy. We take on new challenges every day and find the best ways to convert them into opportunities. The senior team here is a constant force of encouragement. The work structure and atmosphere are well-defined and rather wonderful.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s5s.png",
+    image: "/Career/SlideImgs/sbig/s5.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Sunny Abraham | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The past four years with the KSH Design Department have been an eye-opener. The atmosphere encourages creativity and as an employee, you feel cared about. We feel the importance given to our clients and understand that we are KSH in everything we do. The trust and freedom that were given to me and my team allowed us to explore our potential. I am part of the KSH family.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s6s.png",
+    image: "/Career/SlideImgs/sbig/s6.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Deepak Khandelwal | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "KSH Infra has been a great place to work for me. The company has given me a platform to showcase my skills and grow professionally. I have worked with some great people here who have helped me develop my career.",
   },
   {
-    video: "/Career/SlideImgs/slidevid1.webm",
+    simgs: "/Career/SlideImgs/ssmall/s1s.png",
+    image: "/Career/SlideImgs/sbig/s1.png",
     title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
+    subtitle: "Krishna Vyas | MANAGER",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  },
-  {
-    video: "/Career/SlideImgs/slidevid1.webm",
-    title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  },
-  {
-    video: "/Career/SlideImgs/slidevid1.webm",
-    title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  },
-  {
-    video: "/Career/SlideImgs/slidevid1.webm",
-    title: "Leading the industry",
-    subtitle: "JANE SMITH | MANAGER",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Working with KSH Infra has been a great experience. The company is professionally managed and the work culture is very good. The team members are very supportive and helpful. The company has good work ethics and values its employees. I would recommend KSH Infra to anyone looking for a good company to work with.",
   },
 ];
 
 export const CarSlide = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
-  // Use the transition end event to trigger video playback
+  // Use the transition end event to trigger image playback
   const handleSlideChangeTransitionEnd = (swiper) => {
-    // Pause all videos first
+    // Pause all images first
     swiper.slides.forEach((slide) => {
-      const videoEl = slide.querySelector("video");
-      if (videoEl) {
-        videoEl.pause();
+      const imageEl = slide.querySelector("image");
+      if (imageEl) {
+        imageEl.pause();
       }
     });
-    // Play the video in the active slide
+    // Play the image in the active slide
     const activeSlide = swiper.slides[swiper.activeIndex];
-    const activeVideo = activeSlide && activeSlide.querySelector("video");
-    if (activeVideo) {
-      activeVideo
+    const activeimage = activeSlide && activeSlide.querySelector("image");
+    if (activeimage) {
+      activeimage
         .play()
-        .catch((error) => console.log("Video play error:", error));
+        .catch((error) => console.log("image play error:", error));
     }
   };
 
@@ -421,7 +413,7 @@ export const CarSlide = () => {
             What our team says!
           </motion.h1>
 
-          {/* Main Slider – wraps the video and text content */}
+          {/* Main Slider – wraps the image and text content */}
           <Swiper
             modules={[Thumbs]}
             thumbs={{
@@ -434,13 +426,13 @@ export const CarSlide = () => {
               // Trigger play for the first slide once the swiper is ready
               setTimeout(() => {
                 const activeSlide = swiper.slides[swiper.activeIndex];
-                const activeVideo =
-                  activeSlide && activeSlide.querySelector("video");
-                if (activeVideo) {
-                  activeVideo
+                const activeimage =
+                  activeSlide && activeSlide.querySelector("image");
+                if (activeimage) {
+                  activeimage
                     .play()
                     .catch((error) =>
-                      console.log("Initial video play error:", error)
+                      console.log("Initial image play error:", error)
                     );
                 }
               }, 0);
@@ -449,22 +441,20 @@ export const CarSlide = () => {
           >
             {slides.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="flex lg:flex-row h-fit flex-col w-full gap-[35px] lg:gap-[70px] lg:h-[530px] pt-[55px]">
-                  {/* Video Container */}
+                <div className="flex lg:flex-row h-fit flex-col w-full gap-[35px] lg:gap-[70px] lg:h-fit pt-[55px]">
+                  {/* image Container */}
                   <motion.div
                     initial={{ y: "-100px", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                     viewport={{ amount: 0.1, once: true }}
-                    className="xl:w-[770px] lg:w-[550px] w-full max-w-full h-fit bg-[url(/Career/SlideImgs/slidethbg.png)] bg-cover bg-no-repeat bg-center overflow-hidden flex justify-center items-center px-[8%] py-[12%] lg:px-[100px] lg:py-[70px] shadow-[4px_4px_34px_rgba(0,0,0,0.15)]"
+                    className="w-fit max-w-full h-fit bg-[url(/Career/SlideImgs/slidethbg.png)] bg-cover bg-no-repeat bg-center overflow-hidden flex justify-center items-center px-[8%] py-[12%] lg:px-[60px] lg:py-[60px] shadow-[4px_4px_34px_rgba(0,0,0,0.15)]"
                   >
-                    <video
+                    <img
                       className="w-full h-full"
-                      src={slide.video}
-                      autoPlay
-                      loop
-                      muted
-                    ></video>
+                      src={slide.image}
+                      className="h-full w-full"
+                    ></img>
                   </motion.div>
 
                   {/* Text Content */}
@@ -559,7 +549,7 @@ export const CarSlide = () => {
               {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
                   <CareerSlideCard
-                    image="/Career/SlideImgs/cars1.png"
+                    image={slide.simgs}
                     title={slide.title}
                     des={slide.subtitle}
                   />

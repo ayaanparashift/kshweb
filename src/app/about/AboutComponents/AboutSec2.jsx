@@ -9,7 +9,7 @@ const AboutSec2 = () => {
   return (
     <>
       <div className=" ">
-        <div className="fix12 flex flex-col lg:flex-row justify-between gap-[20px] lg:gap-[5%] py-[98px]">
+        <div className="fix12 flex flex-col lg:flex-row justify-between gap-[20px] lg:gap-[5%] py-[49px] sm:py-[98px]">
           <div className="flex-1  xl:w-[538px] xl:min-h-[540px] ">
             <div className="w-[80%]">
               <motion.h1
@@ -17,7 +17,7 @@ const AboutSec2 = () => {
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="text-[#141414] text-[44px] fpt-500 leading-[48.84px] pb-3 whitespace-nowrap"
+                className="text-[#141414] text-[38px] sm:text-[44px] fpt-500 leading-[48.84px] pb-3 whitespace-nowrap"
               >
                 Inspiring Green
                 <br /> Development

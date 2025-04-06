@@ -110,6 +110,8 @@ import Link from "next/link";
 import React from "react";
 
 const BlogCard = ({ blog, activeTabId }) => {
+  console.log(blog, "-------BlogCard---------");
+
   // Category Labels
   const categoryLabels = {
     17: "Blogs",
@@ -144,8 +146,12 @@ const BlogCard = ({ blog, activeTabId }) => {
       <div className="w-[292px] h-[300px] max-w-full">
         <img
           className="object-cover h-full w-full"
-          src={blog.thumbnail || "/default-image.jpg"}
-          alt={blog.title?.rendered || "Blog Thumbnail"}
+          src={
+            blog.yoast_head_json?.schema?.["@graph"]?.[0]?.thumbnailUrl ||
+            "/default-image.jpg"
+          }
+          // src={blog.thumbnail || "/default-image.jpg"}
+          // alt={blog.title?.rendered || "Blog Thumbnail"}
         />
       </div>
 
@@ -158,9 +164,14 @@ const BlogCard = ({ blog, activeTabId }) => {
           </p>
 
           {/* Blog Title */}
-          <h3 className="spotlightheaddd fsans-600 text-[20px] text-[#565656]">
+          {/* <h3 className="spotlightheaddd fsans-600 text-[20px] text-[#565656]">
             {blog.title?.rendered}
-          </h3>
+          </h3> */}
+
+          <h3
+            className="spotlightheaddd fsans-600 text-[20px] text-[#565656]"
+            dangerouslySetInnerHTML={{ __html: blog.title?.rendered }}
+          ></h3>
         </div>
 
         {/* Learn More Link */}

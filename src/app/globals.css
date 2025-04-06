@@ -390,6 +390,7 @@ h6:not(.spotlightheaddd) {
   width: 0px;
   opacity: 0;
   height: 0px;
+  right: 0;
   background-color: #d7d7d766;
 }
 
@@ -405,7 +406,7 @@ h6:not(.spotlightheaddd) {
 
 .hotspot.active .hotspot_inn::after {
   width: 250px;
-  right: -234px;
+  right: -250px;
   height: 1px;
   transition: opacity 2s ease-in-out;
   opacity: 1;

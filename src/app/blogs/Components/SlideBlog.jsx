@@ -317,31 +317,23 @@ const SlideBlog = ({ blogs, bimg }) => {
 
   const tabsData = [
     {
-      title: "Growth",
       description: "The Impact of Ergonomics on Worker Productivity and Safety",
-      image: "/Slideimgs/Growth.png",
-      middleImage: "/Slideimgs/Growth-middle.png",
+      image: "/blog/blogin/sld/imp.webp",
     },
     {
-      title: "Culture",
       description:
         "Why Sustainable Industrial and Logistics Parks is the Need of the Hour for Indian Industry",
-      image: "/Slideimgs/Culture.png",
-      middleImage: "/Slideimgs/Culture-middle.png",
+      image: "/blog/blogin/sld/why.webp",
     },
     {
-      title: "Opportunities",
       description:
         "The Evolution of Grade A Industrial and Logistics Parks: Trends and Insights",
-      image: "/Slideimgs/Opportunities.png",
-      middleImage: "/Slideimgs/Opportunities-middle.png",
+      image: "/blog/blogin/sld/evo.webp",
     },
     {
-      title: "One Piece",
       description:
         "Top Challenges in Logistics and Industrial Real Estate Development—and How KSH INFRA Solves Them",
-      image: "/Slideimgs/Opportunities.png",
-      middleImage: "/Slideimgs/Opportunities-middle.png",
+      image: "/blog/blogin/sld/top.webp",
     },
   ];
 
@@ -477,15 +469,17 @@ const SlideBlog = ({ blogs, bimg }) => {
         </div> */}
 
         {/* Right Section (Swiper) */}
-        <div className="rightCon w-full lg:w-[40%] h-full rigthSectionOfCarrer">
+        <div className="rightCon w-full lg:w-[40%] h-full rigthSectionOfBlogin min-h-full">
           <Swiper
             onSwiper={(swiper) => (swiperRef.current = swiper)}
             onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
             effect={"creative"}
+            style={{ minHeight: "100%" }}
             creativeEffect={{
               prev: {
                 shadow: true,
                 translate: [0, 0, -400],
+                rotate: "45deg",
               },
               next: {
                 translate: ["100%", 0, 0],
@@ -493,7 +487,7 @@ const SlideBlog = ({ blogs, bimg }) => {
             }}
             speed={1000}
             modules={[EffectCreative, Autoplay]}
-            className="mySwiper"
+            className="mySwiper min-h-full"
             autoplay={{
               delay: 3000,
               disableOnInteraction: false,
@@ -501,12 +495,16 @@ const SlideBlog = ({ blogs, bimg }) => {
           >
             {tabsData &&
               tabsData.map((tab) => (
-                <SwiperSlide key={tab.title}>
+                <SwiperSlide
+                  className="min-h-full"
+                  style={{ minHeight: "100%", height: "500px" }}
+                  key={tab.description + tab.image + Date.now()}
+                >
                   <img
                     // src={`/Slideimgs/${tab.image}.png`}
                     src={tab.image}
                     alt={tab}
-                    className="max-w-none w-full xl-1440:w-auto xl-1366:w-auto xl-1280:w-auto xl-1024:w-auto"
+                    className="max-w-full object-cover h-full w-full  xl-1024:w-auto min-h-full"
                   />
                 </SwiperSlide>
               ))}

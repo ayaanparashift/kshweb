@@ -166,11 +166,11 @@ const PopForm = ({ onClose }) => {
         <div className="flex justify-between items-center">
           <div>
             <h3 className="text-[44px] leading-[111%] fpt-700 text-black">
-              Enter credentials
+              Download ESG Report
             </h3>
-            <p className="fsans-400 text-[24px] leading-[111%] text-[#E30613]">
+            {/* <p className="fsans-400 text-[24px] leading-[111%] text-[#E30613]">
               Lorem Ipsum
-            </p>
+            </p> */}
           </div>
           <div className="cursor-pointer" onClick={onClose}>
             <img src="/Sustainability/closepopf.svg" alt="Close Popup" />

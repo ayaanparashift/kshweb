@@ -9,6 +9,7 @@ import Bento from "./Bento";
 import BentoHeader from "./BentoHeader";
 import { useState } from "react";
 import BentoHeaderF from "./BentoHeaderF";
+import Bento2 from "./Bento2";
 
 const BentoSlider = () => {
   const [sliding, setSliding] = useState(false);
@@ -49,7 +50,7 @@ const BentoSlider = () => {
               <Bento pointerEvents={!sliding} />
             </SwiperSlide>
             <SwiperSlide>
-              <Bento pointerEvents={!sliding} />
+              <Bento2 pointerEvents={!sliding} />
             </SwiperSlide>
           </Swiper>
         </div>

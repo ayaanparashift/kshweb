@@ -29,7 +29,7 @@ const page = () => {
         <Usp />
         <WhyKsh />
         <TrustedPartners paddingB={70} />
-        {/* <ParkThreed /> */}
+        <ParkThreed />
       </div>
     </>
   );

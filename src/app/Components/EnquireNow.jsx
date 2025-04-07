@@ -149,32 +149,35 @@ const EnquireNow = ({ closeEnquire }) => {
         x: "100%", // Slide out to the right
       }}
     >
-      <button onClick={closeEnquire}>
-        <img
-          className="w-[40px] h-[40px]"
-          src="/homepage/icons/backarrow.svg"
-          alt="Back"
-        />
-      </button>
-      <div className="flex justify-end">
-        <motion.h1
-          initial={{ x: -100, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.2, ease: [0.7, 0, 0.4, 1] }}
-          viewport={{ once: true, amount: 0 }}
-          id="appformtitle"
-          className="fpt-600 xl:text-[60px] lg:text-[40px] md:text-[32px] text-[20px] text-white leading-[150%] md:leading-[105%] pb-5 2xl:text-[70px]"
-        >
-          Enquire Now
-        </motion.h1>
-        <motion.div
-          initial={{ x: -150, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.2, ease: [0.7, 0, 0.4, 1] }}
-          viewport={{ once: true, amount: 0 }}
-          className="bg-[#F7E327] h-[10px] w-full"
-        ></motion.div>
+      <div className="flex justify-between items-center">
+        <button onClick={closeEnquire}>
+          <img
+            className="w-[40px] h-[40px]"
+            src="/homepage/icons/backarrow.svg"
+            alt="Back"
+          />
+        </button>
+        <div>
+          <motion.h1
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1.2, ease: [0.7, 0, 0.4, 1] }}
+            viewport={{ once: true, amount: 0 }}
+            id="appformtitle"
+            className="fpt-600 xl:text-[42px] lg:text-[40px] md:text-[32px] text-[20px] text-white leading-[150%] md:leading-[105%] pb-1 2xl:text-[42px]"
+          >
+            Enquire Now
+          </motion.h1>
+          <motion.div
+            initial={{ x: -150, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1.2, ease: [0.7, 0, 0.4, 1] }}
+            viewport={{ once: true, amount: 0 }}
+            className="bg-[#F7E327] h-[10px] w-full"
+          ></motion.div>
+        </div>
       </div>
+
       {/* Form */}
       <form
         action=""

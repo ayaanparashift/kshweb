@@ -8,7 +8,7 @@ import {
 } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 const AboutCounter = () => {
-  const parksTotal = 5;
+  const parksTotal = 6;
   const equityDeployment = 143555;
   const totalInvestments = 1200;
   const approxPortfolio = 4;

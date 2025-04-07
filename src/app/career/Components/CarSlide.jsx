@@ -268,109 +268,108 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import CareerSlideCard from "./CareerSlideCard";
 
-// Dummy slides data – you can modify or extend this as needed.
 const slides = [
   {
     simgs: "/Career/SlideImgs/ssmall/s1s.png",
     image: "/Career/SlideImgs/sbig/s1.png",
-    title: "A culture that builds your future",
-    subtitle: "Akhil Ilkar | SALES EXECUTIVE",
+    title: "Akhil Ilkar",
+    subtitle: "Designation",
     description:
       "At KSH, we create industrial and logistics parks that are sustainable, make working effortless and help enhance processes. Over the past nine years, I have seen that this approach extends to team members as well, they are all fairly compensated and more importantly, given the opportunity to grow and learn in their areas of interest. It is easy to see how well-knit this team is and this is one major reason I enjoy working here.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s2s.png",
     image: "/Career/SlideImgs/sbig/s2.png",
-    title: "Innovation at its best",
-    subtitle: "Prajakta Butala | DEVELOPER",
+    title: "Prajakta Butala",
+    subtitle: "Designation",
     description:
       "Working at KSH Infra has helped me to grow as a person and as a professional. I have gained valuable experience and insights into the working of a successful organization. I am highly impressed with the work culture at KSH Infra and believe that it is the perfect place for me to continue my career.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s3s.png",
     image: "/Career/SlideImgs/sbig/s3.png",
-    title: "Leading the industry",
-    subtitle: "Mahesh Sawant | MANAGER",
+    title: "Mahesh Sawant",
+    subtitle: "Designation",
     description:
       "I can say without a doubt that it is one of the best places to work at. The company has a great work culture and the management is supportive. I have never felt like I am working for a company, but rather I feel like I am part of a family. The work is challenging and there is always something new to learn, which keeps me motivated.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s4s.png",
     image: "/Career/SlideImgs/sbig/s4.png",
-    title: "Leading the industry",
-    subtitle: "Vishram Khatavkar | MANAGER",
+    title: "Vishram Khatavkar",
+    subtitle: "Designation",
     description:
       "I’ve been a part of KSH since 2017 and currently work as a Deputy Manager in the Electrical Department at KSH. Not only have I been able to execute my skills, I have also been able to learn more about my field through the various industrial and logistics parks as well as through client interactions. I have been lucky enough to find my designs used in various projects for clients and that keeps driving me.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s5s.png",
     image: "/Career/SlideImgs/sbig/s5.png",
-    title: "Leading the industry",
-    subtitle: "Suraj Shah | MANAGER",
+    title: "Suraj Shah",
+    subtitle: "Designation",
     description:
       "I come to work every day knowing that I will give all my energy to my job and own my responsibilities. The reason for that is the friendly and conducive work environment at KSH. I have access to some of the best mentors around and real opportunities to gain and enhance my knowledge and skills. I’ve never felt the need to hold an idea back because I know it will be heard and appreciated.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s6s.png",
     image: "/Career/SlideImgs/sbig/s6.png",
-    title: "Leading the industry",
-    subtitle: "Sumit Yadav| MANAGER",
+    title: "Sumit Yadav",
+    subtitle: "Designation",
     description:
-      "I moved from the residential construction space into the industrial space with KSH, the work culture, team adherence and support helped me get through my personal troubles more than once. This alone is enough to inspire me, but there is more, the value given to employees is something I have experienced at this level. I encourage people who are willing to challenge their attitudes and push the boundaries to join this amazing team.  ",
+      "I moved from the residential construction space into the industrial space with KSH, the work culture, team adherence and support helped me get through my personal troubles more than once. This alone is enough to inspire me, but there is more, the value given to employees is something I have experienced at this level. I encourage people who are willing to challenge their attitudes and push the boundaries to join this amazing team.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s1s.png",
     image: "/Career/SlideImgs/sbig/s1.png",
-    title: "Leading the industry",
-    subtitle: "Dilip Kadam | MANAGER",
+    title: "Dilip Kadam",
+    subtitle: "Designation",
     description:
       "KSH has grown immensely in the past few years, this is due to the undying commitment and vision of both our management and our excellent workforce. We hire people for more than their skills. Their attitudes, their creativity and their willingness to push boundaries are criteria we hold in the highest regard. Nothing that has happened at KSH was done by one person, it has truly been a team effort.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s2s.png",
     image: "/Career/SlideImgs/sbig/s2.png",
-    title: "Leading the industry",
-    subtitle: "Dinesh Hebbar | MANAGER",
+    title: "Dinesh Hebbar",
+    subtitle: "Designation",
     description:
       "The strength of a team can never be undermined. During the last eight years at KSH, I have been able to implement knowledge garnered over the past 35 years in the various multimodal industrial and logistics parks. I’ve been able to express my concerns and ideas. Not only were they heard, but they were also received with gratitude. Coming back to teams, there have been moments where we pulled together to overcome seemingly humongous challenges with ease.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s3s.png",
     image: "/Career/SlideImgs/sbig/s3.png",
-    title: "Leading the industry",
-    subtitle: "Mayur Bhiungade | MANAGER",
+    title: "Mayur Bhiungade",
+    subtitle: "Designation",
     description:
       "The past nine years have been nothing short of glorious. I have learned and grown as a professional and a person. I enjoy every moment and find the team to be a sheer joy to work with. People here know they are valued; they bring enthusiasm and knowledge to the table every day. We have had a lot of opportunities to gel at sporting events, yoga sessions, communication seminars and other workshops that have helped me hone my skills. Both my team and I are filled with gratitude as we continue our journey with KSH.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s4s.png",
     image: "/Career/SlideImgs/sbig/s4.png",
-    title: "Leading the industry",
-    subtitle: "Rohan Patil | MANAGER",
+    title: "Rohan Patil",
+    subtitle: "Designation",
     description:
       "It has only been three months since I joined this team, I was immediately welcomed with warmth and found communication easy. We take on new challenges every day and find the best ways to convert them into opportunities. The senior team here is a constant force of encouragement. The work structure and atmosphere are well-defined and rather wonderful.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s5s.png",
     image: "/Career/SlideImgs/sbig/s5.png",
-    title: "Leading the industry",
-    subtitle: "Sunny Abraham | MANAGER",
+    title: "Sunny Abraham",
+    subtitle: "Designation",
     description:
       "The past four years with the KSH Design Department have been an eye-opener. The atmosphere encourages creativity and as an employee, you feel cared about. We feel the importance given to our clients and understand that we are KSH in everything we do. The trust and freedom that were given to me and my team allowed us to explore our potential. I am part of the KSH family.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s6s.png",
     image: "/Career/SlideImgs/sbig/s6.png",
-    title: "Leading the industry",
-    subtitle: "Deepak Khandelwal | MANAGER",
+    title: "Deepak Khandelwal",
+    subtitle: "Designation",
     description:
       "KSH Infra has been a great place to work for me. The company has given me a platform to showcase my skills and grow professionally. I have worked with some great people here who have helped me develop my career.",
   },
   {
     simgs: "/Career/SlideImgs/ssmall/s1s.png",
     image: "/Career/SlideImgs/sbig/s1.png",
-    title: "Leading the industry",
-    subtitle: "Krishna Vyas | MANAGER",
+    title: "Krishna Vyas",
+    subtitle: "Designation",
     description:
       "Working with KSH Infra has been a great experience. The company is professionally managed and the work culture is very good. The team members are very supportive and helpful. The company has good work ethics and values its employees. I would recommend KSH Infra to anyone looking for a good company to work with.",
   },
@@ -378,25 +377,6 @@ const slides = [
 
 export const CarSlide = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
-  // Use the transition end event to trigger image playback
-  const handleSlideChangeTransitionEnd = (swiper) => {
-    // Pause all images first
-    swiper.slides.forEach((slide) => {
-      const imageEl = slide.querySelector("image");
-      if (imageEl) {
-        imageEl.pause();
-      }
-    });
-    // Play the image in the active slide
-    const activeSlide = swiper.slides[swiper.activeIndex];
-    const activeimage = activeSlide && activeSlide.querySelector("image");
-    if (activeimage) {
-      activeimage
-        .play()
-        .catch((error) => console.log("image play error:", error));
-    }
-  };
 
   return (
     <div className="w-full pt-[70px]">
@@ -421,7 +401,6 @@ export const CarSlide = () => {
                 thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
             }}
             speed={1} // minimal speed so the active slide updates
-            onSlideChangeTransitionEnd={handleSlideChangeTransitionEnd}
             onSwiper={(swiper) => {
               // Trigger play for the first slide once the swiper is ready
               setTimeout(() => {
@@ -548,11 +527,14 @@ export const CarSlide = () => {
             >
               {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
-                  <CareerSlideCard
-                    image={slide.simgs}
-                    title={slide.title}
-                    des={slide.subtitle}
-                  />
+                  {({ isActive }) => (
+                    <CareerSlideCard
+                      image={slide.simgs}
+                      title={slide.title}
+                      des={slide.subtitle}
+                      className={isActive ? "swiper-slide-thumb-active" : ""}
+                    />
+                  )}
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -570,3 +552,111 @@ export const CarSlide = () => {
 // 88888888888888888888888
 // 88888888888888888888888
 // 88888888888888888888888
+
+// Dummy slides data – you can modify or extend this as needed.
+// const slides = [
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s1s.png",
+//     image: "/Career/SlideImgs/sbig/s1.png",
+//     title: "A culture that builds your future",
+//     subtitle: "Akhil Ilkar | SALES EXECUTIVE",
+//     description:
+//       "At KSH, we create industrial and logistics parks that are sustainable, make working effortless and help enhance processes. Over the past nine years, I have seen that this approach extends to team members as well, they are all fairly compensated and more importantly, given the opportunity to grow and learn in their areas of interest. It is easy to see how well-knit this team is and this is one major reason I enjoy working here.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s2s.png",
+//     image: "/Career/SlideImgs/sbig/s2.png",
+//     title: "Innovation at its best",
+//     subtitle: "Prajakta Butala | DEVELOPER",
+//     description:
+//       "Working at KSH Infra has helped me to grow as a person and as a professional. I have gained valuable experience and insights into the working of a successful organization. I am highly impressed with the work culture at KSH Infra and believe that it is the perfect place for me to continue my career.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s3s.png",
+//     image: "/Career/SlideImgs/sbig/s3.png",
+//     title: "Leading the industry",
+//     subtitle: "Mahesh Sawant | MANAGER",
+//     description:
+//       "I can say without a doubt that it is one of the best places to work at. The company has a great work culture and the management is supportive. I have never felt like I am working for a company, but rather I feel like I am part of a family. The work is challenging and there is always something new to learn, which keeps me motivated.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s4s.png",
+//     image: "/Career/SlideImgs/sbig/s4.png",
+//     title: "Leading the industry",
+//     subtitle: "Vishram Khatavkar | MANAGER",
+//     description:
+//       "I’ve been a part of KSH since 2017 and currently work as a Deputy Manager in the Electrical Department at KSH. Not only have I been able to execute my skills, I have also been able to learn more about my field through the various industrial and logistics parks as well as through client interactions. I have been lucky enough to find my designs used in various projects for clients and that keeps driving me.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s5s.png",
+//     image: "/Career/SlideImgs/sbig/s5.png",
+//     title: "Leading the industry",
+//     subtitle: "Suraj Shah | MANAGER",
+//     description:
+//       "I come to work every day knowing that I will give all my energy to my job and own my responsibilities. The reason for that is the friendly and conducive work environment at KSH. I have access to some of the best mentors around and real opportunities to gain and enhance my knowledge and skills. I’ve never felt the need to hold an idea back because I know it will be heard and appreciated.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s6s.png",
+//     image: "/Career/SlideImgs/sbig/s6.png",
+//     title: "Leading the industry",
+//     subtitle: "Sumit Yadav| MANAGER",
+//     description:
+//       "I moved from the residential construction space into the industrial space with KSH, the work culture, team adherence and support helped me get through my personal troubles more than once. This alone is enough to inspire me, but there is more, the value given to employees is something I have experienced at this level. I encourage people who are willing to challenge their attitudes and push the boundaries to join this amazing team.  ",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s1s.png",
+//     image: "/Career/SlideImgs/sbig/s1.png",
+//     title: "Leading the industry",
+//     subtitle: "Dilip Kadam | MANAGER",
+//     description:
+//       "KSH has grown immensely in the past few years, this is due to the undying commitment and vision of both our management and our excellent workforce. We hire people for more than their skills. Their attitudes, their creativity and their willingness to push boundaries are criteria we hold in the highest regard. Nothing that has happened at KSH was done by one person, it has truly been a team effort.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s2s.png",
+//     image: "/Career/SlideImgs/sbig/s2.png",
+//     title: "Leading the industry",
+//     subtitle: "Dinesh Hebbar | MANAGER",
+//     description:
+//       "The strength of a team can never be undermined. During the last eight years at KSH, I have been able to implement knowledge garnered over the past 35 years in the various multimodal industrial and logistics parks. I’ve been able to express my concerns and ideas. Not only were they heard, but they were also received with gratitude. Coming back to teams, there have been moments where we pulled together to overcome seemingly humongous challenges with ease.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s3s.png",
+//     image: "/Career/SlideImgs/sbig/s3.png",
+//     title: "Leading the industry",
+//     subtitle: "Mayur Bhiungade | MANAGER",
+//     description:
+//       "The past nine years have been nothing short of glorious. I have learned and grown as a professional and a person. I enjoy every moment and find the team to be a sheer joy to work with. People here know they are valued; they bring enthusiasm and knowledge to the table every day. We have had a lot of opportunities to gel at sporting events, yoga sessions, communication seminars and other workshops that have helped me hone my skills. Both my team and I are filled with gratitude as we continue our journey with KSH.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s4s.png",
+//     image: "/Career/SlideImgs/sbig/s4.png",
+//     title: "Leading the industry",
+//     subtitle: "Rohan Patil | MANAGER",
+//     description:
+//       "It has only been three months since I joined this team, I was immediately welcomed with warmth and found communication easy. We take on new challenges every day and find the best ways to convert them into opportunities. The senior team here is a constant force of encouragement. The work structure and atmosphere are well-defined and rather wonderful.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s5s.png",
+//     image: "/Career/SlideImgs/sbig/s5.png",
+//     title: "Leading the industry",
+//     subtitle: "Sunny Abraham | MANAGER",
+//     description:
+//       "The past four years with the KSH Design Department have been an eye-opener. The atmosphere encourages creativity and as an employee, you feel cared about. We feel the importance given to our clients and understand that we are KSH in everything we do. The trust and freedom that were given to me and my team allowed us to explore our potential. I am part of the KSH family.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s6s.png",
+//     image: "/Career/SlideImgs/sbig/s6.png",
+//     title: "Leading the industry",
+//     subtitle: "Deepak Khandelwal | MANAGER",
+//     description:
+//       "KSH Infra has been a great place to work for me. The company has given me a platform to showcase my skills and grow professionally. I have worked with some great people here who have helped me develop my career.",
+//   },
+//   {
+//     simgs: "/Career/SlideImgs/ssmall/s1s.png",
+//     image: "/Career/SlideImgs/sbig/s1.png",
+//     title: "Leading the industry",
+//     subtitle: "Krishna Vyas | MANAGER",
+//     description:
+//       "Working with KSH Infra has been a great experience. The company is professionally managed and the work culture is very good. The team members are very supportive and helpful. The company has good work ethics and values its employees. I would recommend KSH Infra to anyone looking for a good company to work with.",
+//   },
+// ];

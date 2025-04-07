@@ -13,7 +13,7 @@ const LastSw = () => {
     {
       parkTitle: "KSH Chakan IV",
       pLocal: "Pune | Maharashtra",
-      totalLand: "0.36M sf",
+      totalLand: "0.36MSQ FT",
       pImg: "/ParkPage/chakan-4/ch4spot.png",
       buildings: "02 Buildings",
       pLink: "/parks/chakan-iv",
@@ -21,7 +21,7 @@ const LastSw = () => {
     {
       parkTitle: "KSH Chakan III",
       pLocal: "Pune | Maharashtra",
-      totalLand: "1.5M sf",
+      totalLand: "1.5MSQ FT",
       pImg: "/ParkPage/chakan-3/ch3spot.png",
       buildings: "08 Buildings",
       pLink: "/parks/chakan-iii",
@@ -29,7 +29,7 @@ const LastSw = () => {
     {
       parkTitle: "KSH Chakan II",
       pLocal: "Pune | Maharashtra",
-      totalLand: "1.2M sf",
+      totalLand: "1.2MSQ FT",
       pImg: "/ParkPage/chakan-2/ch2spot.png",
       buildings: "05 Buildings",
       pLink: "/parks/chakan-ii",
@@ -37,7 +37,7 @@ const LastSw = () => {
     {
       parkTitle: "KSH Talegaon",
       pLocal: "Pune | Maharashtra",
-      totalLand: "0.14M sf",
+      totalLand: "0.14MSQ FT",
       pImg: "/ParkPage/talegaon/talspot.png",
       buildings: "01 Building",
       pLink: "/parks/talegaon",

@@ -69,24 +69,23 @@
 // }
 
 import Parent from "./Parent";
-
 export default function PFetch() {
   const staticData = {
     "Case Studies": [
       {
         id: 1,
-        title: "Jabil + KSH INFRA",
-        content: "Done and Delivered. On Time",
-        linkText: "Explore Case Study",
-        link: "/case-studies/jabil",
+        title: "Creating opportunities for Kawasaki",
+        content:
+          "How we built Kawasaki's first integrated manufacturing and R&D facility in India?",
+        image: "/caseInside/caseInsideSpot.png",
+        href: "http://localhost:3000/case-studies/kawasaki",
       },
       {
         id: 2,
-        title: "Kawasaki + KSH INFRA",
-        content:
-          "Manufacturing, Assembly, and R&D — Delivered Kawasaki's First Indian Integrated Unit",
-        linkText: "Explore Case Study",
-        link: "/case-studies/kawasaki",
+        title: "Jabil + KSH INFRA",
+        content: "Jabil + KSH INFRA.",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
     ],
     News: [
@@ -94,16 +93,23 @@ export default function PFetch() {
         id: 5,
         title: "Mapletree Investments Acquires KSH Infra’s logistics asset",
         content: "Mapletree Investments Acquires KSH Infra’s logistics asset",
+        image:
+          "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 6,
         title: "Post covid-19 opportunities in India",
         content: "Post covid-19 opportunities in India",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 7,
         title: "Benefits of moving into a sustainable Industrial Park",
         content: "Benefits of moving into a sustainable Industrial Park",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 8,
@@ -111,69 +117,63 @@ export default function PFetch() {
           "IndoSpace inks Rs 1,000 cr JV with KSH INFRA to develop Logistics Parks across India",
         content:
           "IndoSpace inks Rs 1,000 cr JV with KSH INFRA to develop Logistics Parks across India",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
     ],
     "Press Release": [
       {
-        id: 9,
-        title: "New Product Launch",
-        linkText: "Explore Press Release",
-        link: "/",
-        content: "Press Release 1",
-      },
-      {
         id: 10,
-        title: "Merger Announcement",
-        linkText: "",
-        link: "/",
-        content: "Press Release 3",
+        title: "New Product Launch",
+        content: "Press Release 1",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 11,
-        title: "Quarterly Financial Update",
-        linkText: "",
-        link: "/",
-        content: "Press Release 2",
+        title: "Merger Announcement",
+        content: "Press Release 3",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 12,
+        title: "Quarterly Financial Update",
+        content: "Press Release 2",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
+      },
+      {
+        id: 13,
         title: "Strategic Partnership Formed",
-        linkText: "",
-        link: "/",
         content: "Press Release 4",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
     ],
     Others: [
       {
-        id: 13,
-        title: "CEO Interview Insights",
-        linkText: "",
-        link: "/",
-        content: "CEO Interview Insights 1",
-      },
-      {
         id: 14,
         title: "Community Initiative Kickoff",
-        linkText: "",
-        link: "/",
         content: "CEO Interview Insights 2",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 15,
         title: "Industry Analysis Report",
-        linkText: "",
-        link: "/",
         content: "CEO Interview Insights 3",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
       {
         id: 16,
         title: "Upcoming Event Highlights",
-        linkText: "",
-        link: "/",
         content: "CEO Interview Insights 4",
+        image: "/caseInside/jabilspot.png",
+        href: "http://localhost:3000/case-studies/jabil",
       },
     ],
   };
-
   return <Parent staticData={staticData} />;
 }

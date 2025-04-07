@@ -70,7 +70,7 @@
 //     //               className="flex items-center justify-between cursor-pointer"
 //     //               onClick={() => toggleAccordion(index)}
 //     //             >
-//     //               <h1 className="text-[#7A7A7A] fsans-700 text-[22px] uppercase py-[25px]">
+//     //               <h1 className="text-[#7A7A7A] fsans-700 md:text-[22px] text-[18px] uppercase py-[25px]">
 //     //                 {item.title}
 //     //               </h1>
 //     //               <img
@@ -235,7 +235,7 @@ const CareerAcc = () => {
                   className="flex items-center justify-between cursor-pointer py-[25px]"
                   onClick={() => toggleAccordion(index)}
                 >
-                  <h1 className="text-[#7A7A7A] fsans-700 text-[22px] uppercase">
+                  <h1 className="text-[#7A7A7A] fsans-700 md:text-[22px] text-[18px] uppercase">
                     {item.title}
                   </h1>
                   <img

@@ -16,7 +16,7 @@
 //     <>
 //       <div className="w-full  bg-[#092241]">
 //         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-//           <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+//           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">Other Blogs</h2>
 //           <div>
 //             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
 //               {tabs.map((tab, index) => (
@@ -159,7 +159,7 @@
 //     <>
 //       <div className="w-full bg-[#092241]">
 //         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-//           <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+//           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">Other Blogs</h2>
 //           <div>
 //             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
 //               {tabs.map((tab, index) => (
@@ -226,7 +226,7 @@
 //     <>
 //       <div className="w-full bg-[#092241]">
 //         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-//           <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+//           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">Other Blogs</h2>
 //           <div>
 //             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
 //               {tabs.map((tab, index) => (
@@ -305,7 +305,7 @@
 //     <>
 //       <div className="w-full bg-[#092241]">
 //         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-//           <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+//           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">Other Blogs</h2>
 //           <div>
 //             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
 //               {tabs.map((tab, index) => (
@@ -407,7 +407,9 @@ const TabBlogs = ({ blogs }) => {
       {/* Tabs Section */}
       <div className="w-full bg-[#092241]">
         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-          <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+          <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">
+            Other Blogs
+          </h2>
           <div>
             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
               {tabs.map((tab, index) => (
@@ -555,7 +557,7 @@ export default TabBlogs;
 //       {/* Tabs */}
 //       <div className="w-full bg-[#092241]">
 //         <div className="fix12 pt-[50px] flex flex-col gap-[60px] pb-[30px]">
-//           <h2 className="fpt-600 text-[44px] text-white">Other Blogs</h2>
+//           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">Other Blogs</h2>
 //           <div>
 //             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
 //               {tabs.map((tab, index) => (

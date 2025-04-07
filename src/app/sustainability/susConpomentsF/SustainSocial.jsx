@@ -17,7 +17,7 @@ const SustainSocial = () => {
           whileInView={{ width: "100%" }}
           transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
           viewport={{ once: true, amount: 0.3 }}
-          className="text-[#092241] fpt-500 text-[44px] border-b-[#D7D7D7] border-b-[1px] md:pb-3 overflow-hidden whitespace-nowrap"
+          className="text-[#092241] fpt-500 md:text-[44px] sm:text-[32px] text-[24px] border-b-[#D7D7D7] border-b-[1px] md:pb-3 overflow-hidden whitespace-nowrap"
         >
           Social Committment
         </motion.h1>
@@ -29,7 +29,7 @@ const SustainSocial = () => {
           coverage, you will find over
         </p>
       </div>
-      <div className="md:ml-[max(5%,calc((100vw-1250px)/2))] md:pb-8 lg:pb-16 pb-14 mx-auto md:w-full">
+      <div className="ml-[max(5%,calc((100vw-1250px)/2))] md:mr-0 mr-[max(5%,calc((100vw-1250px)/2))] md:pb-8 lg:pb-16 pb-14 md:w-full">
         {/* Swiper Div */}
         <div className="md:pt-14 pt-5">
           <Swiper
@@ -75,7 +75,7 @@ const SustainSocial = () => {
             }}
           >
             <SwiperSlide>
-              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
+              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] md:w-[495px] bg-red-400 flex">
                   <img
                     src="/Sustainability/simgs/s13.png"
@@ -110,7 +110,7 @@ const SustainSocial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
+              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] lg:w-[495px] bg-red-400 flex">
                   <img
                     src="/Sustainability/simgs/s11.png"
@@ -139,7 +139,7 @@ const SustainSocial = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[800px] bg-white">
+              <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] w-[495px] bg-red-400 flex">
                   <img
                     src="/Sustainability/simgs/s12.png"

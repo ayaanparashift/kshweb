@@ -101,7 +101,7 @@ const CapProperty = () => {
             transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
             className="conCap flex-1 flex flex-col justify-between"
           >
-            <h1 className="text-[30px] fpt-500 leading-[33px] text-white border-b-[#D7D7D7] border-b-[1px] pb-2">
+            <h1 className="md:text-[30px] text-[24px] fpt-500 leading-[33px] text-white border-b-[#D7D7D7] border-b-[1px] pb-2">
               Property Management
             </h1>
 
@@ -113,7 +113,7 @@ const CapProperty = () => {
                 <p className="text-lg fsans-400 leading-7 text-[#CECECE]">
                   At KSH INFRA, we manage our properties to keep everything
                   functioning seamlessly. Our property management team
-                  prioritizes tenant satisfaction above all else. . Our property
+                  prioritizes tenant satisfaction above all else. Our property
                   management approach spans several focus areas:
                 </p>
               </div>
@@ -183,7 +183,7 @@ export default CapProperty;
 //         className="flex items-center justify-between cursor-pointer"
 //         onClick={() => toggleAccordion(index)}
 //       >
-//         <h1 className="text-white fsans-700 text-[22px] uppercase py-5">
+//         <h1 className="text-white fsans-700 md:text-[22px] text-[16px] uppercase py-5">
 //           {item.title}
 //         </h1>
 //         <img

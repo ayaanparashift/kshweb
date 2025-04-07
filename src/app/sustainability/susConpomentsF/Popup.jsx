@@ -80,18 +80,18 @@ export default function Popup({ isOpen, onClose }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.6, ease: [0.7, 0, 0.4, 1] }}
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
+          className="fixed max-w-screen w-screen inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.6, ease: [0.7, 0, 0.4, 1] }}
-            className="bg-white p-6 px-[40px] py-[40px] w-[700px] max-w-full relative flex flex-col gap-[20px] relative"
+            className="bg-white md:p-[40px] p-[20px] w-[700px] max-w-full flex flex-col gap-[10px] md:gap-[20px] relative"
           >
             <button
               onClick={onClose}
-              className="absolute top-[-10%] right-[-10%]"
+              className="absolute top-[-10%] right-0 md:right-[-10%]"
             >
               <img
                 src="/Sustainability/closepopf.svg"
@@ -99,7 +99,10 @@ export default function Popup({ isOpen, onClose }) {
                 className="w-[60px] h-[60px]"
               />
             </button>
-            <p className="fsans-400 text-[16px] leading-[26px]">
+            <p
+              className="fsans-400 text-[14px] md:text-[16px] md:leading-[26px]"
+              style={{ letterSpacing: "1.2px" }}
+            >
               We build our growth and development strategy around genuine
               environmental care. The KSH INFRA Chakan Park II delivers real
               savings on your operational costs while significantly reducing
@@ -108,11 +111,14 @@ export default function Popup({ isOpen, onClose }) {
               create a refreshing, natural atmosphere that makes coming to work
               more rejuvenating.
             </p>
-            <p>
+            <p
+              className="fsans-400 text-[14px] md:text-[16px] md:leading-[26px]"
+              style={{ letterSpacing: "1.2px" }}
+            >
               Here are some ways that KSH INFRA is miles ahead in its commitment
               to environmental care:
             </p>
-            <ul className="list-disc pl-[20px]">
+            <ul className="list-disc pl-[20px] md:text-[16px] text-[14px]">
               <li>
                 Using material produced with the least amount of energy
                 expenditure

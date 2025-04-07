@@ -82,7 +82,7 @@
 //                 dangerouslySetInnerHTML={{ __html: categoryToShow }}
 //               />
 //               <h1
-//                 className="fpt-700 text-[44px] leading-[105%] text-white"
+//                 className="fpt-700 md:text-[44px] sm:text-[32px] text-[24px] leading-[105%] text-white"
 //                 dangerouslySetInnerHTML={{ __html: blog.title.rendered }}
 //               />
 //             </div>
@@ -139,7 +139,7 @@
 //       {/* Related Blogs Section */}
 //       <div className="fix12 py-[70px]">
 //         <h2
-//           className="fpt-600 text-[44px] text-[#092241] mb-10"
+//           className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-[#092241] mb-10"
 //           dangerouslySetInnerHTML={{ __html: "Related Blogs" }}
 //         />
 //         <div className="grid grid-cols-2 gap-y-[65px]">
@@ -249,7 +249,7 @@ export default async function BlogPage({ params }) {
                 dangerouslySetInnerHTML={{ __html: categoryToShow }}
               />
               <h1
-                className="fpt-700 text-[44px] leading-[105%] text-white"
+                className="fpt-700 md:text-[44px] sm:text-[32px] text-[24px] leading-[105%] text-white"
                 dangerouslySetInnerHTML={{ __html: blog.title.rendered }}
               />
             </div>

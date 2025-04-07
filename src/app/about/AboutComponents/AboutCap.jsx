@@ -76,9 +76,9 @@ const AboutCap = () => {
   };
   return (
     <div className="bg-[#092241] ">
-      <div className="bg-[#092241] md:h-auto h-fit flex items-end justify-end ">
+      <div className="bg-[#092241] md:h-[680px] flex items-end justify-end ">
         {/* <div className="border-white w-full  maxTab xl-1024:ml-[44px] xl-1280:ml-[59px] xl-1366:ml-[60px] xl-1440:ml-[90px] xl-1536:ml-[137px] xl-1600:ml-[175px] xl-1920:ml-[17.5%]  lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden"> */}
-        <div className="border-white w-full ml-[max(5%,calc((100vw-1250px)/2))] lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden relative z-[1]">
+        <div className="border-white w-full md:mr-0  ml-[max(5%,calc((100vw-1250px)/2))] mr-[max(5%,calc((100vw-1250px)/2))] lg:pb-0 pb-[100px] lg:gap-0 gap-[50px] flex lg:flex-row flex-col overflow-hidden relative z-[1]">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -116,7 +116,7 @@ const AboutCap = () => {
               ))}
             </div>
             {/* Animated Content Section */}
-            <div className="w-full max-h-500px min-h-500px">
+            <div className="w-full md:h-[250px] md:min-h-[250px] min-h-[300px] h-[300px]">
               <motion.div
                 key={activeTab} // Re-render on tab change
                 initial={{ x: 500, opacity: 0 }}
@@ -125,8 +125,8 @@ const AboutCap = () => {
                 transition={{ duration: 0.6, ease: [0.7, 0, 0.4, 1] }}
                 className="w-[90%]  xl:w-[516px] xl-1024:w-[400px] contentArea"
               >
-                <div className="flex flex-col  md:h-[240px]">
-                  <h1 className="text-3xl xl-1024:text-[25px] xl-1024:[30px] pt-7 md:pt-[57px] pb-4 text-white fpt-500">
+                <div className="flex flex-col  md:h-[300px]">
+                  <h1 className="text-[20px] xl-1024:text-[25px] pt-7 md:pt-[57px] pb-4 text-white fpt-500">
                     {tabs[activeTab].heading}
                   </h1>
                   <p className="tabContent text-lg text-[#C1C1C1]  ">
@@ -139,7 +139,9 @@ const AboutCap = () => {
             {/* Navigation Buttons */}
             <div className="flex flex-col gap-7 pt-12 xl-1024:pt-20 xl:w-[60%] xl-1280:w-[80%] xl-1024:w-[90%] xl-1440:w-[90%] md:w-[70%] w-[100%] justify-between">
               <div className="flex items-center gap-2">
-                <h1 className="text-base text-[#fff]">FIND OUT MORE :</h1>{" "}
+                <h1 className="text-[14px] fpt-700 text-[#fff]">
+                  FIND OUT MORE :
+                </h1>{" "}
                 <span className="text-[#F7E327] text-base">
                   <a
                     href={tabs[activeTab].links}

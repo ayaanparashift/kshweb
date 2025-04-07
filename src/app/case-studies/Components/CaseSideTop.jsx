@@ -977,7 +977,7 @@ const CaseSideTop = () => {
               transition={{ duration: 2, ease: [0.7, 0, 0.4, 1] }}
               className="overflow-x-hidden h-fit whitespace-nowrap"
             >
-              <h2 className="leading-[111%] w-full text-[44px] border-b xl:mb-[50px] mb-[36px] border-[#D7D7D7] fpt-700 text-white">
+              <h2 className="leading-[111%] w-full md:text-[44px] sm:text-[32px] text-[24px] border-b xl:mb-[50px] mb-[36px] border-[#D7D7D7] fpt-700 text-white">
                 What our clients say!
               </h2>
             </motion.div>

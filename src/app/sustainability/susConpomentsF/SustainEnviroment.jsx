@@ -192,7 +192,7 @@ const SustainEnviroment = () => {
               transition={{ duration: 2, ease: [0.7, 0, 0.4, 1] }}
               className="overflow-x-hidden h-fit whitespace-nowrap"
             >
-              <h2 className="md:text-[44px] text-[24px] leading-[111%] w-full pb-[10px] border-b xl:mb-[66px] mb-[36px] text-[#092241] border-[#d7d7d7]">
+              <h2 className="md:text-[44px] text-[22px] leading-[111%] w-full pb-[10px] border-b xl:mb-[66px] mb-[36px] text-[#092241] border-[#d7d7d7]">
                 KSH INFRA Chakan Park II:
                 <br className="lg:hidden flex" /> Committed to the Environment
               </h2>

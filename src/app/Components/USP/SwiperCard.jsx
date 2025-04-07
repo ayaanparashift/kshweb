@@ -68,7 +68,7 @@ const SwiperCard = ({ title, icon, content, transform, fsize }) => {
         {/* Text Content */}
         <div className="flex relative z-20 flex-col gap-[18px]">
           <h3
-            className="text-[#092241] transition-all ease-[0.7,0,0.4,1] duration-500 group-hover:text-[#EEF0F3] fsans-700 text-[22px] leading-[130%] break-words"
+            className="text-[#092241] transition-all ease-[0.7,0,0.4,1] duration-500 group-hover:text-[#EEF0F3] fsans-700 text-[18px] md:text-[22px] leading-[130%] break-words"
             style={{ textTransform: `${transform}` }}
           >
             {title}

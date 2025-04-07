@@ -6,11 +6,11 @@ const ParkOverviewContent = () => {
     <div className="bg-[#FFF]">
       <div className="fix12 pt-[72px] pb-[150px]">
         <motion.h1
-          initial={{ width: 0 }}
-          whileInView={{ width: "100%" }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
           viewport={{ amount: 0.1, once: true }}
-          className="text-[#040404] text-[44px] ftp-400 border-b border-[#D7D7D7] pb-4 whitespace-nowrap overflow-hidden"
+          className="text-[#040404] md:text-[44px] sm:text-[32px] text-[24px] ftp-400 border-b border-[#D7D7D7] pb-4 overflow-hidden"
         >
           KSH INFRA Parks: New Benchmaks of Logistics Efficiency
         </motion.h1>

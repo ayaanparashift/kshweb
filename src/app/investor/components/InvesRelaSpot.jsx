@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 const InvesRelaSpot = () => {
   return (
-    <div className="relative bg-[#092241] h-[120vh] z-0 overflow-hidden">
+    <div className="relative bg-[#092241] h-[50vh] md:h-[120vh] z-0 overflow-hidden">
       {/* <div className=""> */}
       <div className="fix12 pt-[140px] ">
         <motion.p
@@ -17,7 +17,7 @@ const InvesRelaSpot = () => {
           whileInView={{ width: "fit-content" }}
           transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
           viewport={{ amount: 0.1, once: true }}
-          className="text-[60px] max-w-fit whitespace-nowrap overflow-hidden ftp-500 text-white border-b-[6px] border-[#F7E327] "
+          className="text-[28px] sm:text-[32px] md:text-[60px] max-w-fit whitespace-nowrap overflow-hidden ftp-500 text-white border-b-[6px] border-[#F7E327] "
         >
           Investor Relation &nbsp;&nbsp;&nbsp;
         </motion.h1>

@@ -19,7 +19,7 @@ const TeamModal = ({ member, onClose }) => {
         <div className="flex flex-col gap-[24px]">
           <div className="flex w-full justify-between">
             <div className="flex flex-col gap-[10px]">
-              <h2 className="fpt-700 text-[44px] leading-[111%]">
+              <h2 className="fpt-700 md:text-[44px] sm:text-[32px] text-[24px] leading-[111%]">
                 {member.name}
               </h2>
               <h3 className="spotlightheaddd fsans-400 text-[24px] text-[#E30613] leading-[111%]">

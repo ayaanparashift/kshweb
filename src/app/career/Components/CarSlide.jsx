@@ -408,7 +408,7 @@ export const CarSlide = () => {
             whileInView={{ width: "100%" }}
             transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
             viewport={{ amount: 0.1, once: true }}
-            className="md:text-[44px] text-[30px] text-[#092241] leading-[111%] w-full pb-[10px] border-b-[1px] border-[#D7D7D7] whitespace-nowrap overflow-hidden"
+            className="md:text-[44px] md:text-[30px] text-[24px] text-[#092241] leading-[111%] w-full pb-[10px] border-b-[1px] border-[#D7D7D7] whitespace-nowrap overflow-hidden"
           >
             What our team says!
           </motion.h1>

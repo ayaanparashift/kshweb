@@ -11,7 +11,7 @@
 //     <>
 //       <div className="fix12 py-[70px]">
 //         <h2
-//           className="fpt-600 text-[44px] text-[#092241] mb-10 w-fit"
+//           className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-[#092241] mb-10 w-fit"
 //           dangerouslySetInnerHTML={{ __html: "Other Blogs" }}
 //         />
 //         <div className="flex items-center gap-3">
@@ -86,7 +86,7 @@ export default function BCSlider({ relatedBlogs }) {
       {/* Custom Navigation Arrows */}
       <div className="flex items-center justify-between gap-3">
         <h2
-          className="fpt-600 text-[44px] text-[#092241] mb-10 w-fit"
+          className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-[#092241] mb-10 w-fit"
           dangerouslySetInnerHTML={{ __html: "Other Blogs" }}
         />
         <span className="flex gap-2">

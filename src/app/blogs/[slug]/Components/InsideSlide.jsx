@@ -31,7 +31,9 @@ const InsideSlide = () => {
     <div className="fix12">
       <div className="slideMain lg:py-[75px]  ">
         <div className="head flex items-center justify-between pb-[65px]">
-          <h1 className="fpt-500 text-[44px]">Other Blogs</h1>
+          <h1 className="fpt-500 md:text-[44px] sm:text-[32px] text-[24px]">
+            Other Blogs
+          </h1>
 
           <div className="flex items-center gap-3">
             <img id="arrowleft" src="/buttonarrows/arrowleft.svg" alt="" />

@@ -145,7 +145,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
 const getLinkData = (acbtn) => {
   if (acbtn === "Case Studies") {
     return { href: "/case-studies", text: "Explore Case Study" };
@@ -156,14 +155,12 @@ const getLinkData = (acbtn) => {
   }
   return { href: "#", text: "Explore More" }; // Fallback for other tabs
 };
-
 const Card = ({ todos, activeSidebar, acbtn }) => {
   const activeItem = todos.find((item) => item.id === activeSidebar);
   const linkData = getLinkData(acbtn);
-
   return (
     <div className="flex flex-col gap-[23px] xl:w-[710px] xl-1280:w-[650px] w-full md:pb-[30px] lg:min-h-[550px] overflow-hidden">
-      <div className="xl:min-w-fit lg:min-h-fit max-w-[700px]">
+      <div className="xl:w-[700px] xl:min-h-[302px] lg:min-h-fit max-w-[700px]">
         <motion.div
           initial={{ x: 200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -188,7 +185,7 @@ const Card = ({ todos, activeSidebar, acbtn }) => {
         {activeItem ? activeItem.content : "No Data Available"}
       </motion.h3>
       <motion.div
-        className="flex cursor-pointer group items-center justify-between font-semibold text-[#ffffff] text-[16px] h-[50px] w-fit"
+        className="flex cursor-pointer group items-center justify-between font-semibold text-[#FFFFFF] text-[16px] h-[50px] w-fit"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
@@ -206,11 +203,10 @@ const Card = ({ todos, activeSidebar, acbtn }) => {
             className="h-10 w-10 rotate-45 group-hover:rotate-0 group-hover:scale-[120%] transition-transform duration-300 cursor-pointer"
             alt="Red Arrow Icon"
           />
-          <p className="text-[#ffffff] fsans-600">{linkData.text}</p>
+          <p className="text-[#FFFFFF] fsans-600">{linkData.text}</p>
         </Link>
       </motion.div>
     </div>
   );
 };
-
 export default Card;

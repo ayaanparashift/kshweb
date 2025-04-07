@@ -8,14 +8,14 @@ const FormSec = () => {
     fileInputRef.current?.click();
   };
   return (
-    <div className="relative mb-[85px]">
+    <div className="relative md:mb-[85px]">
       <img
         src="/Career/formbg.png"
         alt="Blue bg"
         className="absolute w-full top-0 left-0 z-10"
       />
-      <div className="flex relative z-50 xl:pt-[50px] mr-[max(5%,calc((100vw-1250px)/2))]">
-        <div className="bg-[#141D28] flex flex-col items-stretch justify-center flex-1 pl-[max(5%,calc((100vw-1250px)/2))] pr-[60px] pt-[47px] sm:pb-0 pb-[47px] overflow-hidden">
+      <div className="flex relative z-50 xl:pt-[50px] md:mr-[max(5%,calc((100vw-1250px)/2))]">
+        <div className="bg-[#141D28] flex flex-col items-stretch justify-center flex-1 pl-[max(5%,calc((100vw-1250px)/2))] pr-[5%] md:pr-[60px] pt-[47px] sm:pb-0 pb-[47px] overflow-hidden">
           <div className="lg:pb-[50px] pb-[20px] max-w-fit">
             <motion.h1
               initial={{ x: -100, opacity: 0 }}
@@ -128,7 +128,7 @@ const FormSec = () => {
             </div>
           </motion.form>
         </div>
-        <div className="min-h-full overflow-hidden relative">
+        <div className="min-h-full hidden md:block overflow-hidden relative">
           <img
             className="object-cover min-h-full min-w-full"
             src="/Career/careerformimg.png"

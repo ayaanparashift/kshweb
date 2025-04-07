@@ -9,7 +9,7 @@ const CapAbout = () => {
           whileInView={{ width: "100%" }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-          className="fpt-500 whitespace-nowrap overflow-hidden text-[40px] text-[#040404] leading-[48px] border-b-[1px] border-b-[#D7D7D7] pb-4"
+          className="fpt-500 whitespace-nowrap overflow-hidden text-[24px] md:text-[40px] text-[#040404] leading-[110%] md:leading-[48px] border-b-[1px] border-b-[#D7D7D7] pb-4"
         >
           Sustainable Growth
         </motion.h1>
@@ -23,7 +23,7 @@ const CapAbout = () => {
           We combine deep market knowledge with hands-on expertise to deliver
           complete for your industrial real estate needs. From finding the right
           land to managing every aspect of your property, we don't just meet
-          industry standards—we set them.
+          industry standards — we set them.
         </motion.p>
       </div>
     </div>

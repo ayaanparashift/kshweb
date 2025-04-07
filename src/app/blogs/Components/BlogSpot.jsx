@@ -17,7 +17,7 @@ const BlogSpot = () => {
           whileInView={{ width: "fit-content" }}
           transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
           viewport={{ amount: 0.1, once: true }}
-          className="text-[60px] max-w-fit whitespace-nowrap overflow-hidden ftp-500 text-white border-b-[6px] border-[#F7E327] "
+          className="text-[28px] sm:text-[32px] md:text-[60px] max-w-fit whitespace-nowrap overflow-hidden ftp-500 text-white border-b-[6px] border-[#F7E327] "
         >
           News & Blogs
         </motion.h1>

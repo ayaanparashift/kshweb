@@ -45,7 +45,9 @@ const Navlist = () => {
       </div>
       {navItem.map((index) => (
         <div className="flex  justify-between item-end" key={index}>
-          <h3 className="text-[#092F5F] fpt-700 text-[44px]">{index.title}</h3>
+          <h3 className="text-[#092F5F] fpt-700 md:text-[44px] sm:text-[32px] text-[24px]">
+            {index.title}
+          </h3>
         </div>
       ))}
     </div>

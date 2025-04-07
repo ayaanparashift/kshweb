@@ -194,7 +194,7 @@ const CapDev = () => {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
           >
-            <h1 className="text-xl fsans-600 cursor-pointer leading-[26px] text-[#E6E6E6] pb-[34px]">
+            <h1 className="text-xl fsans-600 cursor-pointer leading-[20px] md:leading-[26px] text-[#E6E6E6] pb-[34px]">
               Building Success from the Ground Up
             </h1>
             <p className="text-lg leading-[28px] fsans-400 text-[#CECECE]">
@@ -212,7 +212,7 @@ const CapDev = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-          className="bg-white p-10 xl:min-h-[456px]"
+          className="bg-white p-5 md:p-10 xl:min-h-[456px]"
         >
           {/* Tab Buttons */}
           <div className="flex w-full">
@@ -220,7 +220,7 @@ const CapDev = () => {
               <h1
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`flex-1 fsans-600 cursor-pointer text-center text-lg transition-all duration-300 pb-2 ${
+                className={`flex-1 fsans-600 cursor-pointer text-center md:text-lg transition-all duration-300 pb-2 ${
                   activeIndex === index
                     ? "border-b-[#E30613] border-b-[4px]"
                     : "border-b-[#737373] border-b-[3px]"
@@ -277,12 +277,12 @@ const CapDev = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5, ease: [0.7, 0, 0.5, 1] }}
-                className="flex w-full"
+                className="flex flex-col md:flex-row  w-full"
               >
                 <div className="flex-[1.2]">
                   <img src={tabs[activeIndex].image} alt="" />
                 </div>
-                <div className="flex-1 px-6 flex flex-col  justify-center">
+                <div className="flex-1 px-0 pt-[20px]  md:px-6 flex flex-col justify-center">
                   <motion.div className="xl-1366:space-y-6 space-y-3">
                     {tabs[activeIndex].listItems.map((item, idx) => (
                       <div key={idx} className="xl:1366:space-y-3 space-y-1">

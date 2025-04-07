@@ -11,23 +11,23 @@ const AboutSec2 = () => {
       <div className=" ">
         <div className="fix12 flex flex-col lg:flex-row justify-between gap-[20px] lg:gap-[5%] py-[49px] sm:py-[98px]">
           <div className="flex-1  xl:w-[538px] xl:min-h-[540px] ">
-            <div className="w-[80%]">
+            <div className="md:w-[80%] w-full">
               <motion.h1
                 initial={{ opacity: 0, translateX: "-50px" }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="text-[#141414] text-[38px] sm:text-[44px] fpt-500 leading-[48.84px] pb-3 whitespace-nowrap"
+                className="text-[#141414] text-[24px] sm:text-[44px] fpt-500 md:leading-[48.84px] leading-[110%] pb-3 whitespace-nowrap"
               >
                 Inspiring Green
-                <br /> Development
+                <br className="md:flex hidden" /> Development
               </motion.h1>
               <motion.div
                 initial={{ opacity: 0, translateX: "-100px" }}
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="bg-[#F7E327] h-[5px] w-[80%]"
+                className="bg-[#F7E327] h-[5px] w-full md:w-[80%]"
               ></motion.div>
             </div>
             <motion.div
@@ -35,7 +35,7 @@ const AboutSec2 = () => {
               whileInView={{ opacity: 1, translateX: 0 }}
               transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
               viewport={{ amount: 0.1, once: true }}
-              className="text-[#434343] text-base flex flex-col justify-between pt-9 gap-3"
+              className="text-[#434343] text-base flex flex-col justify-between pt-5 md:pt-9 gap-3"
             >
               <p>CARE. QUALITY. INTEGRITY.</p>
               <p>

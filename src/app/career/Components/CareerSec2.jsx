@@ -13,7 +13,7 @@ const CareerSec2 = () => {
                 whileInView={{ opacity: 1, translateX: 0 }}
                 transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
                 viewport={{ amount: 0.1, once: true }}
-                className="text-[#141414] text-[30px] fpt-600 leading-[48.84px] pb-3"
+                className="text-[#141414] md:text-[30px] text-[24px] fpt-600 md:leading-[48.84px] leading-[110%] pb-3"
               >
                 We Make Leaders
                 <br /> GROW WITH US.

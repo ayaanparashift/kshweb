@@ -388,7 +388,7 @@ export const CarSlide = () => {
             whileInView={{ width: "100%" }}
             transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
             viewport={{ amount: 0.1, once: true }}
-            className="md:text-[44px] md:text-[30px] text-[24px] text-[#092241] leading-[111%] w-full pb-[10px] border-b-[1px] border-[#D7D7D7] whitespace-nowrap overflow-hidden"
+            className="md:text-[44px] text-[24px] text-[#092241] leading-[111%] w-full pb-[10px] border-b-[1px] border-[#D7D7D7] whitespace-nowrap overflow-hidden"
           >
             What our team says!
           </motion.h1>
@@ -429,11 +429,7 @@ export const CarSlide = () => {
                     viewport={{ amount: 0.1, once: true }}
                     className="w-fit max-w-full h-fit bg-[url(/Career/SlideImgs/slidethbg.png)] bg-cover bg-no-repeat bg-center overflow-hidden flex justify-center items-center px-[8%] py-[12%] lg:px-[60px] lg:py-[60px] shadow-[4px_4px_34px_rgba(0,0,0,0.15)]"
                   >
-                    <img
-                      className="w-full h-full"
-                      src={slide.image}
-                      className="h-full w-full"
-                    ></img>
+                    <img className="w-full h-full" src={slide.image}></img>
                   </motion.div>
 
                   {/* Text Content */}

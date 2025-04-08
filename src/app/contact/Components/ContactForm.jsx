@@ -90,7 +90,7 @@ import { motion } from "framer-motion";
 const ContactForm = () => {
   return (
     <div
-      className="relative bg-[#092241] w-full px-[40px] py-[47px] xl:mt-[50px] mt-0 overflow-hidden"
+      className="relative bg-[#092241] w-full max-w-[725px] px-[40px] py-[47px] xl:mt-[50px] mt-0 overflow-hidden"
       id="contform"
     >
       {/* White Mask Layer */}
@@ -112,12 +112,12 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Name"
-            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[295px]"
+            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[50%]"
           />
           <input
             type="text"
             placeholder="Company Name"
-            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[295px]"
+            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[50%]"
           />
         </div>
         {/* Phone & Email */}
@@ -125,13 +125,13 @@ const ContactForm = () => {
           <input
             type="number"
             placeholder="Phone"
-            // className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[295px]"
-            className="border-b appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[295px]"
+            // className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[50%]"
+            className="border-b appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[50%]"
           />
           <input
             type="email"
             placeholder="Email"
-            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[295px]"
+            className="border-b bg-[#263548] text-white border-b-[#146BD7] outline-none fsans-400 text-[16px] leading-[111%] px-[10px] py-[14px] w-full xl:w-[50%]"
           />
         </div>
         {/* Subject */}

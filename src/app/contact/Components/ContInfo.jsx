@@ -50,9 +50,11 @@ const ContInfo = () => {
             </p>
           </div>
           <p className="fsans-400 text-[18px] leading-[28px] text-[#5E5E5E]">
-            Gokhale Sanchit, Office No. 4, Survey No. 846, Servants of India
-            Society, Near Marathwada College, Shivajinagar, Pune - 411 004,
-            Maharashtra, India
+            Gokhale Sanchit, Office No. 4, Survey No. 846,
+            <br />
+            Servants of India Society, Near Marathwada College,
+            <br />
+            Shivajinagar, Pune - 411 004, Maharashtra, India
           </p>
         </div>
         {/* Mumbai Address */}
@@ -66,8 +68,8 @@ const ContInfo = () => {
             </p>
           </div>
           <p className="fsans-400 text-[18px] leading-[28px] text-[#5E5E5E]">
-            Birla Centurion 3rd Floor, Pandurang Budhkar Marg, Worli, Mumbai,
-            Maharashtra 400030
+            Birla Centurion 3rd Floor, Pandurang Budhkar Marg,
+            <br /> Worli, Mumbai, Maharashtra 400030
           </p>
         </div>
       </div>
@@ -77,9 +79,15 @@ const ContInfo = () => {
           Follow us on
         </h3>
         <div className="flex gap-[60px]">
-          <img src="/contact/icons/contins.svg" alt="" />
-          <img src="/contact/icons/contyt.svg" alt="" />
-          <img src="/contact/icons/contx.svg" alt="" />
+          <Link target="__blank" href="https://www.instagram.com/kshinfrapark/">
+            <img src="/contact/icons/contins.svg" alt="" />
+          </Link>
+          <Link href="https://www.youtube.com/channel/UCae7QNTK0AUOf7kxBF53hag">
+            <img src="/contact/icons/contyt.svg" alt="" />
+          </Link>
+          <Link href="https://twitter.com/KshInfra/status/1687774451692343296">
+            <img src="/contact/icons/contx.svg" alt="" />
+          </Link>
         </div>
       </div>
     </motion.div>

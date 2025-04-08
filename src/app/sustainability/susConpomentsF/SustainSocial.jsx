@@ -78,16 +78,16 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] md:w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/simgs/s13.png"
+                    src="/Sustainability/simgs/sc1.png"
                     className="w-full"
                     alt="Social Impact"
                   />
                 </div>
-                <div className=" contentCon bg-white xl-768:w-[400px] md:w-[576px] xl-1024:py-10 xl-768:pt-9 md:py-24 py-12 px-9 md:px-11">
+                <div className=" contentCon bg-white xl-768:w-[400px] md:w-[576px] xl-1024:py-10 xl-768:pt-9 md:py-24 py-12 px-9 md:px-11 flex flex-col justify-center gap-5">
                   <h1 className="text-[#092241] lg:text-[22px] text-xl fsans-700">
                     POSITIVE COMMUNITY ENGAGEMENT
                   </h1>
-                  <div className="md:pt-[38px] pt-6 xl-768:pt-5 text-[#717171] text-[14px] fsans-600 lg:text-base ">
+                  <div className="text-[#717171] text-[14px] fsans-600 lg:text-base ">
                     <ul className="flex flex-col gap-[18px]">
                       <li className="relative pl-4 before:absolute before:left-[-20px] before:top-1/2 before:w-[5px] before:h-[5px] before:bg-[#E30613] before:rounded-full before:-translate-y-1/2">
                         Advanced waste management systems to minimize
@@ -113,7 +113,7 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] lg:w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/simgs/s11.png"
+                    src="/Sustainability/simgs/sc2.png"
                     className="w-full"
                     alt="Social Impact"
                   />
@@ -142,7 +142,7 @@ const SustainSocial = () => {
               <div className=" xl-1280:w-[1000px] xl-1024:w-[800px] md:w-[1071px] md:h-[450px] xl-768:h-[400px]  md:flex h-[500px] bg-white">
                 <div className="imgCon xl-768:w-[300px] w-[495px] bg-red-400 flex">
                   <img
-                    src="/Sustainability/simgs/s12.png"
+                    src="/Sustainability/simgs/sc3.png"
                     className="w-full"
                     alt="Social Impact"
                   />

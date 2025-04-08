@@ -245,6 +245,8 @@ const Footer = () => {
               <Link href="/capabilities">Capabilities</Link>
               <Link href="/sustainability">Sustainability</Link>
               <Link href="/blogs">Blogs</Link>
+              <Link href="/case-studies">Case Studies</Link>
+              <Link href="/our-team">Team</Link>
             </div>
           </div>
         </div>
@@ -300,7 +302,7 @@ const Footer = () => {
 
         {/* Footer End */}
         <div className="pt-[84px] pb-[23px] flex flex-col md:flex-row gap-2 items-center justify-between text-[#6c8dab80] text-sm font-semibold leading-6">
-          <p>© 2024. KSH INFRA. All rights reserved.</p>
+          <p>© 2025. KSH INFRA. All rights reserved.</p>
           <p>Design & Developed by Parashift Technologies</p>
           <p>
             <Link href="/privacy-policy">Privacy Policy</Link> |{" "}

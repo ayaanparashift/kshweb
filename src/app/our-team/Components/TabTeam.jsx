@@ -243,7 +243,7 @@ const TabTeam = () => {
           <h2 className="fpt-600 md:text-[44px] sm:text-[32px] text-[24px] text-white">
             Meet our team
           </h2>
-          <div>
+          {/* <div>
             <div className="fix12 flex overflow-x-auto scrollbar-hide items-center border-b-2 border-[#BFBFBF]">
               {tabs.map((tab, index) => (
                 <button
@@ -259,7 +259,7 @@ const TabTeam = () => {
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
